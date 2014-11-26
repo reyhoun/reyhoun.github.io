@@ -1,0 +1,19 @@
+{
+  "name": "Reyhoun Website",
+  "version": "2.0.0",
+  "homepage": "http://reyhoun.com",
+  "authors": [
+    "Reyhoun Team <info@reyhoun.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/vendor"
+  ],
+  "dependencies": {
+    "foundation": "^5.4.7",
+    "fontawesome": "^4.2.0"
+  }
+}
