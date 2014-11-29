@@ -1,5 +1,5 @@
 .content__about {
-	margin-bottom: rem-calc(100);
+	margin-bottom: rem-calc(85);
 	p {
 		font-size: rem-calc(35);
 		color: lighten($color-base, 20%);
@@ -13,6 +13,9 @@
 }
 
 .content__work-shot {
+	img {
+		padding-top: rem-calc(15);
+	}
 }
 
 .page--portfolio {

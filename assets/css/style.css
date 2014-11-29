@@ -7876,7 +7876,7 @@ th.hide-for-touch {
   content: "\f20c"; }
 
 .content__about {
-  margin-bottom: 6.25rem; }
+  margin-bottom: 5.3125rem; }
   .content__about p {
     font-size: 2.1875rem;
     color: #999999;
@@ -7885,6 +7885,9 @@ th.hide-for-touch {
 .read-more {
   font-size: 0.875rem;
   font-weight: 400; }
+
+.content__work-shot img {
+  padding-top: 0.9375rem; }
 
 .page--portfolio .container {
   margin-bottom: 200; }
