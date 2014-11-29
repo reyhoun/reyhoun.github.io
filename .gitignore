@@ -8,6 +8,7 @@ backup
 _site
 assets/css/style.css
 assets/js/all.js
+assets/js/all.min.js
 
 
 *.log

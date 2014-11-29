@@ -14,4 +14,4 @@ github_username:  jekyll
 markdown: kramdown
 highlighter: rouge
 encoding: utf-8
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+exclude: ["node_modules", "assets/scss", "assets/vendor", "gulpfile.js", "package.json"]

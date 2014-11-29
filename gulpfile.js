@@ -68,7 +68,6 @@ gulp.task('sass', function () {
             includePaths: ['scss'],
             onError: browserSync.notify
         }))
-        .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
 });
@@ -92,10 +91,8 @@ gulp.task('default', ['browser-sync', 'watch']);
 gulp.task('js', function() {
   gulp.src(JsFileList)
     .pipe(concat('all.js'))
-    .pipe(gulp.dest('_site/assets/js'))
     .pipe(gulp.dest('assets/js'))
     .pipe(rename('all.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('_site/assets/js'))
     .pipe(gulp.dest('assets/js'))
 });
