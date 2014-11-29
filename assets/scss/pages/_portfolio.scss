@@ -1,0 +1,26 @@
+.details__title {
+	font-size: rem-calc(16);
+	text-transform: uppercase;
+	padding-bottom: rem-calc(15);
+	color: lighten($color-base, 20%);
+	font-weight: 400;
+}
+.details__items {
+	list-style-type: none;
+	margin: 0;
+}
+
+.details__item {
+	display: inline-block;
+	font-size: rem-calc(15);
+	padding-right: rem-calc(60);
+}
+.top-info {
+	margin-bottom: rem-calc(70);
+}
+
+.content__portfolio {
+	img {
+		margin: rem-calc(50 0 30);
+	}
+}

@@ -359,11 +359,11 @@ html, body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #666;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1.5;
   position: relative;
@@ -1403,7 +1403,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1832,7 +1832,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3065,7 +3065,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3472,7 +3472,7 @@ label.error {
 
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3857,7 +3857,7 @@ ul.pagination {
     color: #EEEEEE;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
     padding: 0.9375rem 1.25rem;
@@ -3865,7 +3865,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .pricing-table .description {
     background-color: #FFFFFF;
     padding: 0.9375rem;
@@ -4138,7 +4138,7 @@ dialog {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -4154,7 +4154,7 @@ dialog {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -4262,7 +4262,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4433,7 +4433,7 @@ table {
       background-color: #EFEFEF;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -4734,7 +4734,7 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -5239,24 +5239,24 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
+  color: #666;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #616161; }
   a img {
     border: none; }
 
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-weight: 300;
+  font-size: 1.0625rem;
+  line-height: 1.875rem;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.21875rem;
+    font-size: 1.28125rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -5265,17 +5265,17 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
   font-style: normal;
-  color: #222222;
+  color: #6e6e6e;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: #a1a1a1;
     line-height: 0; }
 
 h1 {
@@ -5298,7 +5298,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #a1a1a1;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -5335,8 +5335,8 @@ code {
 
 /* Lists */
 ul, ol, dl {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.0625rem;
+  line-height: 1.875rem;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
@@ -5386,7 +5386,7 @@ dl dd {
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #666;
   cursor: help; }
 
 abbr {
@@ -5402,15 +5402,15 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #8f8f8f; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a, blockquote cite a:visited {
-      color: #555555; }
+      color: #8f8f8f; }
 
 blockquote, blockquote p {
-  line-height: 1.6;
-  color: #6f6f6f; }
+  line-height: 1.875rem;
+  color: #a1a1a1; }
 
 /* Microformats */
 .vcard {
@@ -7875,34 +7875,88 @@ th.hide-for-touch {
 .fa-meanpath:before {
   content: "\f20c"; }
 
+.content__about {
+  margin-bottom: 6.25rem; }
+  .content__about p {
+    font-size: 2.1875rem;
+    color: #999999;
+    margin-bottom: 0.625rem; }
+
+.read-more {
+  font-size: 0.875rem;
+  font-weight: 400; }
+
+.page--portfolio .container {
+  margin-bottom: 200; }
+
+.content__blog {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 1.5625rem 0; }
+  .content__blog:first-of-type {
+    padding-top: 0; }
+  .content__blog:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0; }
+
+.container {
+  margin-bottom: 11.25rem; }
+
+.content__title {
+  font-size: 1.25rem; }
+
+.date {
+  font-size: 0.9375rem; }
+
+.details__title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 0.9375rem;
+  color: #999999;
+  font-weight: 400; }
+
+.details__items {
+  list-style-type: none;
+  margin: 0; }
+
+.details__item {
+  display: inline-block;
+  font-size: 0.9375rem;
+  padding-right: 3.75rem; }
+
+.top-info {
+  margin-bottom: 4.375rem; }
+
+.content__portfolio img {
+  margin: 3.125rem 0 1.875rem; }
+
 .header {
   padding: 5rem 0; }
 
 .header__logo {
   font-size: 2.1875rem;
   line-height: 1;
-  text-transform: uppercase;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Expletus Sans'; }
 
 .header__nav {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-top: 0.4375rem; }
   .header__nav li {
-    margin-left: 2.1875rem;
-    text-transform: uppercase; }
+    margin-left: 2.1875rem; }
     .header__nav li a {
       font-size: 0.875rem; }
 
 .container {
   padding-top: 7.5rem; }
 
-.content__about {
-  margin-bottom: 6.25rem; }
-
-.content__work-shot {
-  margin-bottom: 12.5rem; }
+.container__title {
+  font-size: 2.8125rem;
+  margin-bottom: 3.125rem;
+  line-height: 1;
+  margin-top: 0; }
 
 .footer {
-  background: #000;
+  background: #0d0d0d;
   padding: 7.5rem 0; }
 
 .footer__logo {
@@ -7913,10 +7967,11 @@ th.hide-for-touch {
 
 .footer__nav {
   margin-bottom: 0;
-  font-size: 0.875rem; }
+  font-size: 0.75rem; }
 
 .footer__copyright {
-  display: inline-block; }
+  display: inline-block;
+  color: #595959; }
 
 .footer__social {
   margin-bottom: 1.25rem; }
@@ -7927,13 +7982,16 @@ th.hide-for-touch {
   font-size: 0.8125rem;
   margin-bottom: 0; }
 
-.container__title {
-  font-size: 2.8125rem;
-  margin-bottom: 3.125rem;
-  line-height: 1;
-  margin-top: 0; }
+.header__logo, .footer__logo {
+  text-transform: uppercase; }
+  .header__logo a, .footer__logo a {
+    color: #595959; }
 
-.content--single {
-  margin-bottom: 11.25rem; }
-  .content--single img {
-    margin-top: 3.125rem; }
+.footer__nav a, .footer__social a {
+  color: #a6a6a6; }
+
+.header__nav li, .footer__nav li {
+  text-transform: uppercase; }
+
+.content--single img {
+  margin-top: 3.125rem; }
