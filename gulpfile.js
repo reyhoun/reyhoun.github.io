@@ -1,29 +1,3 @@
-// Get Current Date and Time
-function getDateTime() {
-
-    var date = new Date();
-
-    var hour = date.getHours();
-    hour = (hour < 10 ? "0" : "") + hour;
-
-    var min  = date.getMinutes();
-    min = (min < 10 ? "0" : "") + min;
-
-    var sec  = date.getSeconds();
-    sec = (sec < 10 ? "0" : "") + sec;
-
-    var year = date.getFullYear();
-
-    var month = date.getMonth() + 1;
-    month = (month < 10 ? "0" : "") + month;
-
-    var day  = date.getDate();
-    day = (day < 10 ? "0" : "") + day;
-
-    return year + "-" + month + "-" + day + "-" + hour + "-" + min + "-" + sec;
-
-}
-
 /*
  * Start Config Gulp 
  * Load Plugins
@@ -35,62 +9,93 @@ var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var rename = require('gulp-rename');
-var zip = require('gulp-zip');
+var cp = require('child_process');
+var browserSync = require('browser-sync');
+var loadjekyll  = process.platform === "win32" ? "jekyll.bat" : "jekyll";
+
+var messages = {
+    jekyllBuild: '<span style="color: grey">Shadia3! it\'s Running:</span> $ jekyll build'
+};
 
 /*
  * Create List of JS,CSS and Export File
  */
-var DocsJsFileList = [
-    './assets/vendor/slick.js/slick/slick.js',
+var JsFileList = [
     './assets/vendor/bower-webfontloader/webfont.js',
     './assets/js/app.js'
 ];
 
-var DocsCssFileList = [
-    './assets/vendor/prism/plugins/line-numbers/prism-line-numbers.css',
-    './assets/vendor/animate.css/animate.min.css'
-];
 
-
-var DocsExportFileList = [
-    './docs.html',
-    './developer.html'
-];
-
-/*
+/**
  * Gulp Tasks
  */
+ 
+ 
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn(loadjekyll, ['build'], {stdio: 'inherit'})
+        .on('close', done);
+});
+
+/**
+ * Rebuild Jekyll & do page reload
+ */
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.reload();
+});
+
+
+/**
+ * Wait for jekyll-build, then launch the Server
+ */
+gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
+});
+
+/**
+ * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
+ */
+gulp.task('sass', function () {
+    return gulp.src('assets/scss/style.scss')
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify
+        }))
+        .pipe(gulp.dest('_site/assets/css'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('assets/css'));
+});
+
+/**
+ * Watch scss files for changes & recompile
+ * Watch html/md files, run jekyll & reload BrowserSync
+ */
+gulp.task('watch', function () {
+    gulp.watch('./assets/scss/**/*.scss', ['sass']);
+    gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch('assets/js/app.js', ['js']);
+});
+
+/**
+ * Default task, running just `gulp` will compile the sass,
+ * compile the jekyll site, launch BrowserSync & watch files.
+ */
+gulp.task('default', ['browser-sync', 'watch']);
+
 gulp.task('js', function() {
-  gulp.src(DocsJsFileList)
+  gulp.src(JsFileList)
     .pipe(concat('all.js'))
-    .pipe(gulp.dest('./assets/js'))
+    .pipe(gulp.dest('_site/assets/js'))
+    .pipe(gulp.dest('assets/js'))
     .pipe(rename('all.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./assets/js'))
+    .pipe(gulp.dest('_site/assets/js'))
+    .pipe(gulp.dest('assets/js'))
 });
-
-gulp.task('css', function() {
-  gulp.src(DocsCssFileList)
-    .pipe(concat('plugins.css'))
-    .pipe(gulp.dest('./assets/css'))
-});
-
-gulp.task('sass', function () {
-    gulp.src('./assets/scss/**/*.scss')
-        .pipe(sass({errLogToConsole: true}))
-        .pipe(gulp.dest('./assets/css'));
-});
-
-gulp.task('watch', function() {
-    gulp.watch('./assets/scss/**/*.scss', ['sass']);
-});
-
-gulp.task('backup', function() {
-  gulp.src(DocsExportFileList, { base: '.' })
-    .pipe(zip('archive-'+getDateTime()+'.zip'))
-    .pipe(gulp.dest('backup'))
-});
-
-gulp.task('build', ['js', 'css', 'sass']);
-
-gulp.task('export', ['build', 'backup']);
