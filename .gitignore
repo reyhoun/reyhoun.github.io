@@ -6,6 +6,7 @@ assets/vendor/*
 # Created Automaticaly with Gulp
 backup
 _site
+assets/js/app.js
 
 *.log
 logs
