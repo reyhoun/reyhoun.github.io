@@ -3,6 +3,8 @@
 //
 $fa-font-path: "../vendor/fontawesome/fonts";
 
+$color-base: #666;
+
 
 // Foundation by ZURB
 // foundation.zurb.com
@@ -93,7 +95,7 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-// $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
@@ -131,9 +133,9 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to control various global styles
 // $body-bg: $white;
-// $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
-// $body-font-weight: $font-weight-normal;
+$body-font-color: $color-base;
+$body-font-family: "Open Sans", $font-family-sans-serif;
+$body-font-weight: 300;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -202,9 +204,9 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
+$header-font-weight: $body-font-weight;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+$header-font-color: scale-color($color-base, $lightness: 5%);
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -239,9 +241,9 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: $font-weight-normal;
-// $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-font-weight: $body-font-weight;
+$paragraph-font-size: rem-calc(17);
+$paragraph-line-height: rem-calc(30);
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -261,8 +263,8 @@ $include-html-global-classes: $include-html-classes;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color: $color-base;
+$anchor-font-color-hover: scale-color($color-base, $lightness: -5%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;

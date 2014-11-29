@@ -42,7 +42,8 @@ var zip = require('gulp-zip');
  */
 var DocsJsFileList = [
     './assets/vendor/slick.js/slick/slick.js',
-    './assets/js/docs.js'
+    './assets/vendor/bower-webfontloader/webfont.js',
+    './assets/js/app.js'
 ];
 
 var DocsCssFileList = [
