@@ -68,7 +68,6 @@ gulp.task('sass', function () {
             includePaths: ['scss'],
             onError: browserSync.notify
         }))
-        .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
 });
 
@@ -77,9 +76,9 @@ gulp.task('sass', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('./assets/scss/**/*.scss', ['sass']);
+    gulp.watch('./assets/scss/**/*.scss', ['sass', 'jekyll-rebuild']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*', 'blog/index.html'], ['jekyll-rebuild']);
-    gulp.watch('assets/js/app.js', ['js']);
+    gulp.watch('assets/js/app.js', ['js', 'jekyll-rebuild']);
 });
 
 /**
