@@ -12,14 +12,38 @@
 	font-weight: 400;
 }
 
-.content__work-shot {
-	img {
-		padding-top: rem-calc(15);
-	}
-}
 
 .page--portfolio {
 	.container {
-		margin-bottom: 200;
+		margin-bottom: rem-calc(200);
 	}
+}
+
+//hover on image styles
+.img-hover {
+	position: relative;
+	overflow: hidden;
+	margin-top: rem-calc(15);
+
+	&:hover {
+		.layer {
+			background: rgba(0,0,0,0.82);
+			top: 0;
+		}
+	}
+}
+
+.layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	.title {
+		color: #fff;
+		padding: rem-calc(20 0 0 20);
+	}
+}
+
+.img-hover,
+.layer {
+	@include transition(all, 400ms, ease)
 }
