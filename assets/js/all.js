@@ -35,5 +35,9 @@ Y.prototype.load=function(a){a(this.k)};function Z(a,b){this.c=a;this.e=b}Z.prot
 WebFont.load({
   google: {
     families: ['Open+Sans:400,300:latin', 'Expletus+Sans::latin']
+  },
+  custom: {
+    families: ['FontAwesome'],
+    urls: ['./assets/css/font-awesome.css']
   }
 });
