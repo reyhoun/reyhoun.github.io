@@ -18,6 +18,12 @@
 		a {
 			font-size: rem-calc(14);
 		}
+		&.active {
+			a {
+				color: darken($color-base, 5%);
+				font-weight: 400;
+			}
+		}
 	}
 }
 
