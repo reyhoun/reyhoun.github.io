@@ -72,6 +72,26 @@ gulp.task('sass', function () {
 });
 
 /**
+ * Copy font awesome file from assets/vendor to assets/fonts.
+ */
+gulp.task('font', function() {
+  gulp.src('assets/vendor/fontawesome/fonts/fontawesome-webfont.woff')
+    .pipe(gulp.dest('assets/font'))
+});
+
+/**
+ * concatenate and minify JS files and save it to assets/js folder.
+ */
+gulp.task('js', function() {
+  gulp.src(JsFileList)
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('assets/js'))
+    .pipe(rename('all.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('assets/js'))
+});
+
+/**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
@@ -86,12 +106,3 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
-
-gulp.task('js', function() {
-  gulp.src(JsFileList)
-    .pipe(concat('all.js'))
-    .pipe(gulp.dest('assets/js'))
-    .pipe(rename('all.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('assets/js'))
-});
