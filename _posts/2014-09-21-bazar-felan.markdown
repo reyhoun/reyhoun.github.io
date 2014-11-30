@@ -2,6 +2,8 @@
 layout: portfolio
 title:  "first portfolio!"
 date:   2014-11-29 09:47:56
+categories: portfolio
+
 portfolio_desc: "i am [portfolio](http://navid.com) description."
 portfolio_list_one: "
 - Design system
@@ -15,7 +17,6 @@ portfolio_list_two: "
 
 - CSS framework: Foundation
 "
-categories: portfolio
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
