@@ -15,4 +15,5 @@ behance_username:  reyhoun
 markdown: kramdown
 highlighter: rouge
 encoding: utf-8
+permalink: /:categories/:title
 exclude: ["node_modules", "assets/scss", "assets/vendor", "gulpfile.js", "package.json", "bower.json", "LICENSE", "Gemfile", "Gemfile.lock"]
