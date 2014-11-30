@@ -1,12 +1,12 @@
 <header class="header">
 	<div class="row">
-		<div class="small-3 columns">
-			<div class="header__logo left">
+		<div class="small-10 small-centered medium-3 medium-uncentered columns">
+			<div class="header__logo">
 				<a href="{{ site.baseurl }}/">{{ site.title }}</a>
 			</div>
 		</div>
-		<div class="small-6 columns">
-			<ul class="inline-list header__nav right">
+		<div class="small-12 medium-6 columns small-text-center medium-text-right">
+			<ul class="inline-list header__nav">
 				{% assign url = page.url|remove:'index.html' %}
 				{% for link in site.navigation %}
 				<li {% if url == link.url %}class="active"{% endif %}>
