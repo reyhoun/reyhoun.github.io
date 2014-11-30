@@ -9,6 +9,7 @@ var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var rename = require('gulp-rename');
+var minifyCSS = require('gulp-minify-css');
 var cp = require('child_process');
 var browserSync = require('browser-sync');
 var loadjekyll  = process.platform === "win32" ? "jekyll.bat" : "jekyll";
@@ -68,6 +69,7 @@ gulp.task('sass', function () {
             includePaths: ['scss'],
             onError: browserSync.notify
         }))
+		//.pipe(minifyCSS())
         .pipe(gulp.dest('assets/css'));
 });
 
