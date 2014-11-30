@@ -5,10 +5,12 @@
 				<a href="{{ site.baseurl }}/">{{ site.title }}</a>
 			</div>
 			<ul class="inline-list footer__nav">
-				<li><a href="{{ site.baseurl }}/">Projects</a></li>
-				<li><a href="{{ site.baseurl }}/about/">About</a></li>
-				<li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-				<li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+				{% assign url = page.url|remove:'index.html' %}
+				{% for link in site.navigation %}
+				<li {% if url == link.url %}class="active"{% endif %}>
+					<a href="{{link.url}}" title="{{link.text}}">{{link.text}}</a>
+				</li>
+				{% endfor %}
 			</ul>
 		</div>
 		<div class="small-4 columns">

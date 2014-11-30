@@ -7,10 +7,12 @@
 		</div>
 		<div class="small-6 columns">
 			<ul class="inline-list header__nav right">
-				<li><a href="{{ site.baseurl }}/">Projects</a></li>
-				<li><a href="{{ site.baseurl }}/about/">About</a></li>
-				<li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-				<li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+				{% assign url = page.url|remove:'index.html' %}
+				{% for link in site.navigation %}
+				<li {% if url == link.url %}class="active"{% endif %}>
+					<a href="{{link.url}}" title="{{link.text}}">{{link.text}}</a>
+				</li>
+				{% endfor %}
 			</ul>
 		</div>
 	</div>

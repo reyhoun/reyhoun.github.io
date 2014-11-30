@@ -17,3 +17,14 @@ highlighter: rouge
 encoding: utf-8
 permalink: /:categories/:title
 exclude: ["node_modules", "assets/scss", "assets/vendor", "gulpfile.js", "package.json", "bower.json", "LICENSE", "Gemfile", "Gemfile.lock"]
+
+# Menu Data
+navigation:
+- text: Projects
+  url: /
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/
+- text: Contact
+  url: /contact/
