@@ -47,3 +47,13 @@
 .layer {
 	@include transition(all, 400ms, ease)
 }
+
+
+@include breakpoint(small) {
+	p {
+		line-height: 1.3;
+	}
+	.layer {
+		display: none;
+	}
+}

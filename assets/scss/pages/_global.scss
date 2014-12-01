@@ -30,7 +30,7 @@
 
 //container styles
 .container {
-	padding-top: rem-calc(120);
+	margin: rem-calc(120 0 180);
 }
 
 .container__title {
@@ -80,12 +80,6 @@
 	}
 }
 
-// .footer__social,
-// .footer__copyright {
-// 	width: 100%;
-// 	text-align: right;
-// }
-
 .header__logo,
 .footer__logo {
 	text-transform: uppercase;
@@ -130,12 +124,7 @@
 		margin-bottom: rem-calc(15);
 		text-align: center;
 	}
-}
-
-@include breakpoint(medium) {
-	.header__nav {
-		li {
-			margin-left: rem-calc(25);
-		}
+	.container {
+		margin: rem-calc(40 0 120);
 	}
 }

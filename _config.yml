@@ -20,11 +20,11 @@ exclude: ["node_modules", "assets/scss", "assets/vendor", "gulpfile.js", "packag
 
 # Menu Data
 navigation:
-- text: Projects
+- text: Portfolio
   url: /
 - text: About
   url: /about/
 - text: Blog
   url: /blog/
-- text: Contact
+- text: Hire Us
   url: /contact/
