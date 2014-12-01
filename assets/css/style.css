@@ -1710,9 +1710,9 @@ select {
     list-style: none;
     float: left;
     margin-left: 1.375rem;
-    display: block; }
+    display: inline-block; }
     .inline-list > li > * {
-      display: block; }
+      display: inline-block; }
 
 ul.pagination {
   display: block;
@@ -3850,6 +3850,14 @@ blockquote, blockquote p {
   -moz-transition: all 400ms ease 0;
   transition: all 400ms ease 0; }
 
+@media only screen and (max-width: 40em) {
+  p {
+    line-height: 1.3; }
+
+  .layer {
+    display: none; }
+ }
+
 .content__blog {
   border-bottom: 1px solid #f2f2f2;
   padding: 1.5625rem 0; }
@@ -3858,9 +3866,6 @@ blockquote, blockquote p {
   .content__blog:last-of-type {
     border-bottom: none;
     padding-bottom: 0; }
-
-.container {
-  margin-bottom: 11.25rem; }
 
 .content__title {
   font-size: 1.25rem; }
@@ -3907,7 +3912,8 @@ blockquote, blockquote p {
 
 .header__nav {
   margin-bottom: 0;
-  padding-top: 0.1875rem; }
+  padding-top: 0.1875rem;
+  float: right; }
   .header__nav li {
     margin-left: 2.1875rem; }
     .header__nav li a {
@@ -3917,7 +3923,7 @@ blockquote, blockquote p {
       font-weight: 400; }
 
 .container {
-  padding-top: 7.5rem; }
+  margin: 7.5rem 0 11.25rem; }
 
 .container__title {
   font-size: 2.8125rem;
@@ -3933,24 +3939,29 @@ blockquote, blockquote p {
   font-size: 1.625rem;
   margin-bottom: 1.25rem;
   display: inline-block;
-  line-height: 1; }
+  line-height: 1;
+  width: 100%; }
 
 .footer__nav {
   margin-bottom: 0;
   font-size: 0.75rem; }
 
+.footer__logo, .footer__nav {
+  text-align: left; }
+
 .footer__copyright {
   display: inline-block;
-  color: #595959; }
+  color: #595959;
+  font-size: 0.8125rem;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: right; }
 
 .footer__social {
-  margin-bottom: 1.25rem; }
+  margin-bottom: 1.25rem;
+  float: right; }
   .footer__social i {
     font-size: 1.0625rem; }
-
-.footer__copyright {
-  font-size: 0.8125rem;
-  margin-bottom: 0; }
 
 .header__logo, .footer__logo {
   text-transform: uppercase; }
@@ -3962,6 +3973,29 @@ blockquote, blockquote p {
 
 .header__nav li, .footer__nav li {
   text-transform: uppercase; }
+
+@media only screen and (max-width: 40em) {
+  .header__logo, .footer__logo {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    float: none; }
+
+  .header__nav, .footer__nav {
+    float: none;
+    display: inline-block; }
+
+  .footer__copyright, .footer__social {
+    text-align: center;
+    float: none;
+    display: inline-block; }
+
+  .footer__nav {
+    margin-bottom: 0.9375rem;
+    text-align: center; }
+
+  .container {
+    margin: 2.5rem 0 7.5rem; }
+ }
 
 .content--single img {
   margin-top: 3.125rem; }

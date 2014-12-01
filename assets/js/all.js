@@ -38,6 +38,6 @@ WebFont.load({
   },
   custom: {
     families: ['FontAwesome'],
-    urls: ['./assets/css/font-awesome.css']
+    urls: ['/assets/css/font-awesome.css']
   }
 });
