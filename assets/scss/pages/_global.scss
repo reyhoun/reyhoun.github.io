@@ -109,6 +109,11 @@
 		margin-bottom: rem-calc(20);
 		float: none;
 	}
+	.header__nav {
+		li {
+			margin-left: rem-calc(25);
+		}
+	}
 	.header__nav, 
 	.footer__nav {
 		float: none;
@@ -125,6 +130,13 @@
 		text-align: center;
 	}
 	.container {
-		margin: rem-calc(40 0 120);
+		margin: rem-calc(0 0 120);
+	}
+	.container__title {
+		font-size: rem-calc(40);
+		margin-bottom: rem-calc(40);
+	}
+	.footer {
+		padding: rem-calc(80 0);
 	}
 }
