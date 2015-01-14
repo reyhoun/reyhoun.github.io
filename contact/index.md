@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "Contact US"
+title:  "Contact us"
 ---
-This Page Complete Coming Soon :)
+info@reyhoun.com
