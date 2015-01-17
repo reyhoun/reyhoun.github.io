@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "Contact us"
+title:  "Hire us"
 ---
-info@reyhoun.com
+**info@reyhoun.com**
