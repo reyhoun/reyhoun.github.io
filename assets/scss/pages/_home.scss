@@ -3,7 +3,8 @@
 	p {
 		font-size: rem-calc(35);
 		color: lighten($color-base, 20%);
-		margin-bottom: rem-calc(20);
+		margin-bottom: rem-calc(15);
+		line-height: 1.4;
 	}
 }
 
@@ -58,7 +59,7 @@
 	.content__about {
 		p {
 			font-size: rem-calc(30);
-			line-height: 1.3;
+			line-height: 1.5;
 		}
 	}
 }
