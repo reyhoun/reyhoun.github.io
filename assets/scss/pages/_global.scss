@@ -1,3 +1,10 @@
+.header__logo,
+.footer__logo {
+	font-family: 'Expletus Sans';
+	line-height: 1;
+}
+
+
 //header styles
 .header {
 	padding: rem-calc(80 0);
@@ -5,9 +12,7 @@
 
 .header__logo {
 	font-size: rem-calc(35);
-	line-height: 1;
 	margin: 0;
-	font-family: 'Expletus Sans';
 }
 
 .header__nav {
@@ -28,6 +33,7 @@
 	}
 }
 
+
 //container styles
 .container {
 	margin: rem-calc(120 0 180);
@@ -42,16 +48,26 @@
 
 
 //footer styles
+.footer__logo,
+.footer__nav {
+	float: left;
+}
+
+.footer__social,
+.footer__copyright {
+	float: right;
+}
+
 .footer {
 	background: darken($color-base, 35%);
 	padding: rem-calc(120 0);
+	font-weight: normal;
 }
 
 .footer__logo {
 	font-size: rem-calc(26);
 	margin-bottom: rem-calc(20);
 	display: inline-block;
-	line-height: 1;
 	width: 100%;
 }
 
@@ -59,10 +75,12 @@
 	margin-bottom: 0;
 	font-size: rem-calc(12);
 }
+
 .footer__logo,
 .footer__nav {
 	text-align: left;
 }
+
 .footer__copyright {
 	display: inline-block;
 	color: darken($color-base, 5%);
@@ -73,8 +91,9 @@
 }
 
 .footer__social {
-	margin-bottom: rem-calc(20);
+	margin-bottom: rem-calc(30);
 	float: right;
+	line-height: 1;
 	i {
 		font-size: rem-calc(17);
 	}
@@ -104,39 +123,53 @@
 
 @include breakpoint(small) {
 	.header__logo,
-	.footer__logo {
+	.header__nav {
 		text-align: center;
-		margin-bottom: rem-calc(20);
 		float: none;
 	}
+
+	.header__logo {
+		margin-bottom: rem-calc(20);
+	}
+
 	.header__nav {
+		display: inline-block;
 		li {
 			margin-left: rem-calc(25);
 		}
 	}
-	.header__nav, 
-	.footer__nav {
-		float: none;
-		display: inline-block;
-	}
-	.footer__copyright,
+
 	.footer__social {
-		text-align: center;
-		float: none;
-		display: inline-block;
+		margin-bottom: rem-calc(40);
 	}
+
 	.footer__nav {
-		margin-bottom: rem-calc(15);
-		text-align: center;
+		margin-bottom: rem-calc(10);
 	}
+
 	.container {
 		margin: rem-calc(0 0 120);
 	}
+
 	.container__title {
 		font-size: rem-calc(40);
 		margin-bottom: rem-calc(40);
 	}
+
 	.footer {
 		padding: rem-calc(80 0);
+	}
+
+	.footer__logo {
+		margin-bottom: rem-calc(25);
+	}
+
+	.footer__logo,
+	.footer__social,
+	.footer__nav,
+	.footer__copyright {
+		float: none;
+		text-align: center;
+		display: inline-block;
 	}
 }
