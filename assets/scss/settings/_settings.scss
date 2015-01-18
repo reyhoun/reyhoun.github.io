@@ -264,8 +264,8 @@ $code-border-size: none;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-$anchor-font-color: $color-base;
-$anchor-font-color-hover: scale-color($color-base, $lightness: -5%);
+$anchor-font-color: scale-color($color-base, $lightness: 12%);
+$anchor-font-color-hover: scale-color($color-base, $lightness: -30%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;

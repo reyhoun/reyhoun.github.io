@@ -65,10 +65,11 @@
 }
 
 @include breakpoint(small) {
-	.layer {
+	.layer,
+	.item__title {
 		display: none;
 	}
-
+	
 	.content__about {
 		p {
 			font-size: rem-calc(30);

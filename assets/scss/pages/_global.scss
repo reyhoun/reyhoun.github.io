@@ -1,7 +1,14 @@
+a {
+	@include transition();
+}
+
 .header__logo,
 .footer__logo {
 	font-family: 'Expletus Sans';
 	line-height: 1;
+	a {
+		transition: none;
+	}
 }
 
 
@@ -111,6 +118,9 @@
 .footer__social {
 	a {
 		color: lighten($color-base, 25%);
+		&:hover {
+			color: $anchor-font-color-hover;
+		}
 	}
 }
 
@@ -121,7 +131,60 @@
 	}
 }
 
+// Header Links hover effects
+.cl-effect-3 {
+	li {
+		a {
+			position: relative;
+			padding-bottom: rem-calc(10);
+			&::after {
+				position: absolute;
+				top: rem-calc(30);
+				left: 0;
+				width: 100%;
+				height: 2px;
+				background: $anchor-font-color;
+				content: '';
+				opacity: 0;
+				-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+				-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+				transition: opacity 0.3s, transform 0.3s;
+				-webkit-transform: translateY(10px);
+				-moz-transform: translateY(10px);
+				transform: translateY(10px);
+			}
+
+			&:hover,
+			&:focus {
+				&:after {
+					opacity: 1;
+					-webkit-transform: translateY(0px);
+					-moz-transform: translateY(0px);
+					transform: translateY(0px);
+				}
+			}
+		}
+		&.active {
+			a {
+				&::after {
+					bottom: rem-calc(0);
+					background: darken($color-base, 5%);
+					opacity: 1;
+					transition: none;
+					transform: none;
+				}
+			}
+		}
+	}
+}
+
+
+// Mobile mode styles
 @include breakpoint(small) {
+	.header {
+		padding: rem-calc(40 0 80);
+	}
+
 	.header__logo,
 	.header__nav {
 		text-align: center;
@@ -144,7 +207,7 @@
 	}
 
 	.footer__nav {
-		margin-bottom: rem-calc(10);
+		margin-bottom: rem-calc(0);
 	}
 
 	.container {
@@ -161,7 +224,7 @@
 	}
 
 	.footer__logo {
-		margin-bottom: rem-calc(25);
+		margin-bottom: rem-calc(20);
 	}
 
 	.footer__logo,
@@ -171,5 +234,14 @@
 		float: none;
 		text-align: center;
 		display: inline-block;
+	}
+}
+
+
+// Link Style on content in about and blog pages
+.post-content,
+.content--single {
+	a {
+		text-decoration: underline;
 	}
 }
