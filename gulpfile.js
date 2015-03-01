@@ -15,7 +15,7 @@ var browserSync = require('browser-sync');
 var loadjekyll  = process.platform === "win32" ? "jekyll.bat" : "jekyll";
 
 var messages = {
-    jekyllBuild: '<span style="color: grey">Shadia3! it\'s Running:</span> $ jekyll build'
+    jekyllBuild: '<span style="color: grey">it\'s Running:</span> $ jekyll build'
 };
 
 /*
@@ -100,7 +100,7 @@ gulp.task('js', function() {
  */
 gulp.task('watch', function () {
     gulp.watch('./assets/scss/**/*.scss', ['sass', 'jekyll-rebuild']);
-    gulp.watch(['index.html', '_layouts/*.html', '_posts/*', 'blog/index.html', 'about/*.md'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', '_layouts/*.html', '_posts/*', 'blog/index.html', 'about/*.md', 'fa/**/*.md', 'fa/**/*.html'], ['jekyll-rebuild']);
     gulp.watch('assets/js/app.js', ['js', 'jekyll-rebuild']);
 });
 

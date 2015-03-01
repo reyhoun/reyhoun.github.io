@@ -1,5 +1,6 @@
 # Site settings
 title: Reyhoun
+title_fa: ریحون
 email: info@reyhoun.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -28,3 +29,14 @@ navigation:
   url: /blog/
 - text: Hire Us
   url: /contact/
+
+# Menu Data - Farsi
+navigation_fa:
+- text: خدمات ما
+  url: /fa/
+- text: درباره ما
+  url: /fa/about/
+- text: وبلاگ
+  url: /fa/blog/
+- text: تماس با ما
+  url: /fa/contact/

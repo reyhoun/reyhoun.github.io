@@ -1,0 +1,29 @@
+---
+layout: default-fa
+---
+<h1 class="container__title">{{ page.title }}</h1>
+
+<div class="top-info">
+	<div class="row">
+		<div class="small-5 columns">
+			<div class="summary">
+				{{ page.portfolio_desc | markdownify }}
+			</div>
+		</div>
+		<div class="small-6 columns">
+			<div class="details clearfix">
+				<div class="details__title">Project details</div>
+				{{ page.portfolio_list_one | markdownify }}
+				{{ page.portfolio_list_two | markdownify }}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content content__portfolio">
+	<div class="row">
+		<div class="small-10 small-centered columns">
+			{{ content }}
+		</div>
+	</div>
+</div>

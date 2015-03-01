@@ -1,0 +1,19 @@
+<header class="header">
+	<div class="row">
+		<div class="small-10 small-centered medium-3 medium-uncentered columns">
+			<div class="header__logo">
+				<a href="{{ site.baseurl }}/">{{ site.title_fa }}</a>
+			</div>
+		</div>
+		<div class="small-12 medium-7 columns small-text-center medium-text-right">
+			<ul class="inline-list header__nav cl-effect-3">
+				{% assign url = page.url|remove:'index.html' %}
+				{% for link in site.navigation_fa %}
+				<li {% if url == link.url %}class="active"{% endif %}>
+					<a href="{{link.url}}" title="{{link.text}}">{{link.text}}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</header>
