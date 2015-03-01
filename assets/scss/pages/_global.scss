@@ -1,3 +1,7 @@
+body {
+	direction: $text-direction;
+}
+
 a {
 	@include transition();
 }
@@ -25,9 +29,9 @@ a {
 .header__nav {
 	margin-bottom: 0;
 	padding-top: rem-calc(3);
-	float: right;
+	float: $end;
 	li {
-		margin-left: rem-calc(35);
+		margin-#{$start}: rem-calc(35);
 		a {
 			font-size: rem-calc(14);
 		}
@@ -57,12 +61,12 @@ a {
 //footer styles
 .footer__logo,
 .footer__nav {
-	float: left;
+	float: $start;
 }
 
 .footer__social,
 .footer__copyright {
-	float: right;
+	float: $end;
 }
 
 .footer {
@@ -85,7 +89,7 @@ a {
 
 .footer__logo,
 .footer__nav {
-	text-align: left;
+	text-align: $start;
 }
 
 .footer__copyright {
@@ -94,12 +98,12 @@ a {
 	font-size: rem-calc(13);
 	margin-bottom: 0;
 	width: 100%;
-	text-align: right;
+	text-align: $end;
 }
 
 .footer__social {
 	margin-bottom: rem-calc(30);
-	float: right;
+	float: $end;
 	line-height: 1;
 	i {
 		font-size: rem-calc(17);
@@ -140,7 +144,7 @@ a {
 			&::after {
 				position: absolute;
 				top: rem-calc(30);
-				left: 0;
+				#{$start}: 0;
 				width: 100%;
 				height: 2px;
 				background: $anchor-font-color;
@@ -198,7 +202,7 @@ a {
 	.header__nav {
 		display: inline-block;
 		li {
-			margin-left: rem-calc(25);
+			margin-#{$start}: rem-calc(25);
 		}
 	}
 
@@ -236,7 +240,6 @@ a {
 		display: inline-block;
 	}
 }
-
 
 // Link Style on content in about and blog pages
 .post-content,

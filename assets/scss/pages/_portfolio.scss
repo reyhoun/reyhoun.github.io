@@ -6,14 +6,14 @@
 			font-size: rem-calc(15);
 			&:before {
 				content: "—";
-				padding-right: rem-calc(5);
+				padding-#{$end}: rem-calc(5);
 			}
 		}
 		&:first-of-type {
-			float: left;
+			float: $start;
 		}
 		&:nth-of-type(2n) {
-			float: right;
+			float: $end;
 		}
 	}
 }

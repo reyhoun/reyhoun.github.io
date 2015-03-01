@@ -79,3 +79,4 @@ coverage
 
 # sftp configuration file
 sftp-config.json
+.compile-scss-with-ruby/*

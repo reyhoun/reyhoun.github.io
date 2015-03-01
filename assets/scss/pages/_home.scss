@@ -46,7 +46,7 @@
 
 .layer {
 	height: 100%;
-	background: rgba(0,0,0,0.9);
+	background: rgba(#000, 0.9);
 	top: 0;
 }
 
@@ -55,7 +55,7 @@
 	font-weight: bold;
 	font-size: rem-calc(20);
 	top: rem-calc(20);
-	left: rem-calc(20);
+	#{$start}: rem-calc(20);
 }
 
 
