@@ -1,0 +1,14 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This is the default html and body font-size for the base rem value.
+// $rem-base: 16px;
+
+// Allows the use of rem-calc() or lower-bound() in your settings
+@import "../vendor/foundation/scss/foundation/functions";
+
+// Choose Language Direction
+$text-direction: ltr;
+
+// Import All Styles
+@import "app";
