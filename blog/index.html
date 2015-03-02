@@ -4,8 +4,10 @@ title:  "Blog"
 ---
 <h1 class="container__title">{{ page.title }}</h1>
 {% for post in site.categories.blog %}
+{% unless post.categories contains 'fa' %} 
 <div class="content content__blog">
 	<div class="date">{{ post.date | date: "%-d %b %Y" }}</div>
 	<a class="content__title" href="{{ post.url }}">{{ post.title }}</a>
 </div>
+{% endunless %}
 {% endfor %}
