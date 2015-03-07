@@ -379,7 +379,7 @@ body {
   color: #666;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'WMitra', "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1.5;
@@ -434,8 +434,8 @@ select {
 
 .row {
   width: 100%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
   max-width: 75rem; }
@@ -452,8 +452,8 @@ select {
     margin-right: 0; }
   .row .row {
     width: auto;
-    margin-left: -0.9375rem;
     margin-right: -0.9375rem;
+    margin-left: -0.9375rem;
     margin-top: 0;
     margin-bottom: 0;
     max-width: none; }
@@ -476,116 +476,116 @@ select {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
-  float: left; }
-
-[class*="column"] + [class*="column"]:last-child {
   float: right; }
 
-[class*="column"] + [class*="column"].end {
+[class*="column"] + [class*="column"]:last-child {
   float: left; }
+
+[class*="column"] + [class*="column"].end {
+  float: right; }
 
 @media only screen {
   .small-push-0 {
     position: relative;
-    left: 0%;
-    right: auto; }
-  .small-pull-0 {
-    position: relative;
     right: 0%;
     left: auto; }
-  .small-push-1 {
+  .small-pull-0 {
     position: relative;
-    left: 8.33333%;
+    left: 0%;
     right: auto; }
-  .small-pull-1 {
+  .small-push-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
-  .small-push-2 {
+  .small-pull-1 {
     position: relative;
-    left: 16.66667%;
+    left: 8.33333%;
     right: auto; }
-  .small-pull-2 {
+  .small-push-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
-  .small-push-3 {
+  .small-pull-2 {
     position: relative;
-    left: 25%;
+    left: 16.66667%;
     right: auto; }
-  .small-pull-3 {
+  .small-push-3 {
     position: relative;
     right: 25%;
     left: auto; }
-  .small-push-4 {
+  .small-pull-3 {
     position: relative;
-    left: 33.33333%;
+    left: 25%;
     right: auto; }
-  .small-pull-4 {
+  .small-push-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
-  .small-push-5 {
+  .small-pull-4 {
     position: relative;
-    left: 41.66667%;
+    left: 33.33333%;
     right: auto; }
-  .small-pull-5 {
+  .small-push-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
-  .small-push-6 {
+  .small-pull-5 {
     position: relative;
-    left: 50%;
+    left: 41.66667%;
     right: auto; }
-  .small-pull-6 {
+  .small-push-6 {
     position: relative;
     right: 50%;
     left: auto; }
-  .small-push-7 {
+  .small-pull-6 {
     position: relative;
-    left: 58.33333%;
+    left: 50%;
     right: auto; }
-  .small-pull-7 {
+  .small-push-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
-  .small-push-8 {
+  .small-pull-7 {
     position: relative;
-    left: 66.66667%;
+    left: 58.33333%;
     right: auto; }
-  .small-pull-8 {
+  .small-push-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
-  .small-push-9 {
+  .small-pull-8 {
     position: relative;
-    left: 75%;
+    left: 66.66667%;
     right: auto; }
-  .small-pull-9 {
+  .small-push-9 {
     position: relative;
     right: 75%;
     left: auto; }
-  .small-push-10 {
+  .small-pull-9 {
     position: relative;
-    left: 83.33333%;
+    left: 75%;
     right: auto; }
-  .small-pull-10 {
+  .small-push-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
-  .small-push-11 {
+  .small-pull-10 {
     position: relative;
-    left: 91.66667%;
+    left: 83.33333%;
     right: auto; }
-  .small-pull-11 {
+  .small-push-11 {
     position: relative;
     right: 91.66667%;
     left: auto; }
+  .small-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
   .column, .columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    float: left; }
+    float: right; }
   .small-1 {
     width: 8.33333%; }
   .small-2 {
@@ -611,49 +611,49 @@ select {
   .small-12 {
     width: 100%; }
   .small-offset-0 {
-    margin-left: 0% !important; }
+    margin-right: 0% !important; }
   .small-offset-1 {
-    margin-left: 8.33333% !important; }
+    margin-right: 8.33333% !important; }
   .small-offset-2 {
-    margin-left: 16.66667% !important; }
+    margin-right: 16.66667% !important; }
   .small-offset-3 {
-    margin-left: 25% !important; }
+    margin-right: 25% !important; }
   .small-offset-4 {
-    margin-left: 33.33333% !important; }
+    margin-right: 33.33333% !important; }
   .small-offset-5 {
-    margin-left: 41.66667% !important; }
+    margin-right: 41.66667% !important; }
   .small-offset-6 {
-    margin-left: 50% !important; }
+    margin-right: 50% !important; }
   .small-offset-7 {
-    margin-left: 58.33333% !important; }
+    margin-right: 58.33333% !important; }
   .small-offset-8 {
-    margin-left: 66.66667% !important; }
+    margin-right: 66.66667% !important; }
   .small-offset-9 {
-    margin-left: 75% !important; }
+    margin-right: 75% !important; }
   .small-offset-10 {
-    margin-left: 83.33333% !important; }
+    margin-right: 83.33333% !important; }
   .small-offset-11 {
-    margin-left: 91.66667% !important; }
+    margin-right: 91.66667% !important; }
   .small-reset-order {
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
     left: auto;
     right: auto;
-    float: left; }
+    float: right; }
   .column.small-centered, .columns.small-centered {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     float: none; }
   .column.small-uncentered, .columns.small-uncentered {
-    margin-left: 0;
     margin-right: 0;
-    float: left; }
+    margin-left: 0;
+    float: right; }
   .column.small-centered:last-child, .columns.small-centered:last-child {
     float: none; }
   .column.small-uncentered:last-child, .columns.small-uncentered:last-child {
-    float: left; }
-  .column.small-uncentered.opposite, .columns.small-uncentered.opposite {
     float: right; }
+  .column.small-uncentered.opposite, .columns.small-uncentered.opposite {
+    float: left; }
   .row.small-collapse > .column, .row.small-collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
@@ -663,110 +663,110 @@ select {
   .row.small-uncollapse > .column, .row.small-uncollapse > .columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    float: left; } }
+    float: right; } }
 
 @media only screen and (min-width:40.063em) {
   .medium-push-0 {
     position: relative;
-    left: 0%;
-    right: auto; }
-  .medium-pull-0 {
-    position: relative;
     right: 0%;
     left: auto; }
-  .medium-push-1 {
+  .medium-pull-0 {
     position: relative;
-    left: 8.33333%;
+    left: 0%;
     right: auto; }
-  .medium-pull-1 {
+  .medium-push-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
-  .medium-push-2 {
+  .medium-pull-1 {
     position: relative;
-    left: 16.66667%;
+    left: 8.33333%;
     right: auto; }
-  .medium-pull-2 {
+  .medium-push-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
-  .medium-push-3 {
+  .medium-pull-2 {
     position: relative;
-    left: 25%;
+    left: 16.66667%;
     right: auto; }
-  .medium-pull-3 {
+  .medium-push-3 {
     position: relative;
     right: 25%;
     left: auto; }
-  .medium-push-4 {
+  .medium-pull-3 {
     position: relative;
-    left: 33.33333%;
+    left: 25%;
     right: auto; }
-  .medium-pull-4 {
+  .medium-push-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
-  .medium-push-5 {
+  .medium-pull-4 {
     position: relative;
-    left: 41.66667%;
+    left: 33.33333%;
     right: auto; }
-  .medium-pull-5 {
+  .medium-push-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
-  .medium-push-6 {
+  .medium-pull-5 {
     position: relative;
-    left: 50%;
+    left: 41.66667%;
     right: auto; }
-  .medium-pull-6 {
+  .medium-push-6 {
     position: relative;
     right: 50%;
     left: auto; }
-  .medium-push-7 {
+  .medium-pull-6 {
     position: relative;
-    left: 58.33333%;
+    left: 50%;
     right: auto; }
-  .medium-pull-7 {
+  .medium-push-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
-  .medium-push-8 {
+  .medium-pull-7 {
     position: relative;
-    left: 66.66667%;
+    left: 58.33333%;
     right: auto; }
-  .medium-pull-8 {
+  .medium-push-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
-  .medium-push-9 {
+  .medium-pull-8 {
     position: relative;
-    left: 75%;
+    left: 66.66667%;
     right: auto; }
-  .medium-pull-9 {
+  .medium-push-9 {
     position: relative;
     right: 75%;
     left: auto; }
-  .medium-push-10 {
+  .medium-pull-9 {
     position: relative;
-    left: 83.33333%;
+    left: 75%;
     right: auto; }
-  .medium-pull-10 {
+  .medium-push-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
-  .medium-push-11 {
+  .medium-pull-10 {
     position: relative;
-    left: 91.66667%;
+    left: 83.33333%;
     right: auto; }
-  .medium-pull-11 {
+  .medium-push-11 {
     position: relative;
     right: 91.66667%;
     left: auto; }
+  .medium-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
   .column, .columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    float: left; }
+    float: right; }
   .medium-1 {
     width: 8.33333%; }
   .medium-2 {
@@ -792,49 +792,49 @@ select {
   .medium-12 {
     width: 100%; }
   .medium-offset-0 {
-    margin-left: 0% !important; }
+    margin-right: 0% !important; }
   .medium-offset-1 {
-    margin-left: 8.33333% !important; }
+    margin-right: 8.33333% !important; }
   .medium-offset-2 {
-    margin-left: 16.66667% !important; }
+    margin-right: 16.66667% !important; }
   .medium-offset-3 {
-    margin-left: 25% !important; }
+    margin-right: 25% !important; }
   .medium-offset-4 {
-    margin-left: 33.33333% !important; }
+    margin-right: 33.33333% !important; }
   .medium-offset-5 {
-    margin-left: 41.66667% !important; }
+    margin-right: 41.66667% !important; }
   .medium-offset-6 {
-    margin-left: 50% !important; }
+    margin-right: 50% !important; }
   .medium-offset-7 {
-    margin-left: 58.33333% !important; }
+    margin-right: 58.33333% !important; }
   .medium-offset-8 {
-    margin-left: 66.66667% !important; }
+    margin-right: 66.66667% !important; }
   .medium-offset-9 {
-    margin-left: 75% !important; }
+    margin-right: 75% !important; }
   .medium-offset-10 {
-    margin-left: 83.33333% !important; }
+    margin-right: 83.33333% !important; }
   .medium-offset-11 {
-    margin-left: 91.66667% !important; }
+    margin-right: 91.66667% !important; }
   .medium-reset-order {
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
     left: auto;
     right: auto;
-    float: left; }
+    float: right; }
   .column.medium-centered, .columns.medium-centered {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     float: none; }
   .column.medium-uncentered, .columns.medium-uncentered {
-    margin-left: 0;
     margin-right: 0;
-    float: left; }
+    margin-left: 0;
+    float: right; }
   .column.medium-centered:last-child, .columns.medium-centered:last-child {
     float: none; }
   .column.medium-uncentered:last-child, .columns.medium-uncentered:last-child {
-    float: left; }
-  .column.medium-uncentered.opposite, .columns.medium-uncentered.opposite {
     float: right; }
+  .column.medium-uncentered.opposite, .columns.medium-uncentered.opposite {
+    float: left; }
   .row.medium-collapse > .column, .row.medium-collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
@@ -844,206 +844,206 @@ select {
   .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    float: left; }
+    float: right; }
   .push-0 {
-    position: relative;
-    left: 0%;
-    right: auto; }
-  .pull-0 {
     position: relative;
     right: 0%;
     left: auto; }
-  .push-1 {
+  .pull-0 {
     position: relative;
-    left: 8.33333%;
+    left: 0%;
     right: auto; }
-  .pull-1 {
+  .push-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
-  .push-2 {
+  .pull-1 {
     position: relative;
-    left: 16.66667%;
+    left: 8.33333%;
     right: auto; }
-  .pull-2 {
+  .push-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
-  .push-3 {
+  .pull-2 {
     position: relative;
-    left: 25%;
+    left: 16.66667%;
     right: auto; }
-  .pull-3 {
+  .push-3 {
     position: relative;
     right: 25%;
     left: auto; }
-  .push-4 {
+  .pull-3 {
     position: relative;
-    left: 33.33333%;
+    left: 25%;
     right: auto; }
-  .pull-4 {
+  .push-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
-  .push-5 {
+  .pull-4 {
     position: relative;
-    left: 41.66667%;
+    left: 33.33333%;
     right: auto; }
-  .pull-5 {
+  .push-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
-  .push-6 {
+  .pull-5 {
     position: relative;
-    left: 50%;
+    left: 41.66667%;
     right: auto; }
-  .pull-6 {
+  .push-6 {
     position: relative;
     right: 50%;
     left: auto; }
-  .push-7 {
+  .pull-6 {
     position: relative;
-    left: 58.33333%;
+    left: 50%;
     right: auto; }
-  .pull-7 {
+  .push-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
-  .push-8 {
+  .pull-7 {
     position: relative;
-    left: 66.66667%;
+    left: 58.33333%;
     right: auto; }
-  .pull-8 {
+  .push-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
-  .push-9 {
+  .pull-8 {
     position: relative;
-    left: 75%;
+    left: 66.66667%;
     right: auto; }
-  .pull-9 {
+  .push-9 {
     position: relative;
     right: 75%;
     left: auto; }
-  .push-10 {
+  .pull-9 {
     position: relative;
-    left: 83.33333%;
+    left: 75%;
     right: auto; }
-  .pull-10 {
+  .push-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+  .pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
   .push-11 {
     position: relative;
-    left: 91.66667%;
-    right: auto; }
+    right: 91.66667%;
+    left: auto; }
   .pull-11 {
     position: relative;
-    right: 91.66667%;
-    left: auto; } }
+    left: 91.66667%;
+    right: auto; } }
 
 @media only screen and (min-width:64.063em) {
   .large-push-0 {
     position: relative;
-    left: 0%;
-    right: auto; }
-  .large-pull-0 {
-    position: relative;
     right: 0%;
     left: auto; }
-  .large-push-1 {
+  .large-pull-0 {
     position: relative;
-    left: 8.33333%;
+    left: 0%;
     right: auto; }
-  .large-pull-1 {
+  .large-push-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
-  .large-push-2 {
+  .large-pull-1 {
     position: relative;
-    left: 16.66667%;
+    left: 8.33333%;
     right: auto; }
-  .large-pull-2 {
+  .large-push-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
-  .large-push-3 {
+  .large-pull-2 {
     position: relative;
-    left: 25%;
+    left: 16.66667%;
     right: auto; }
-  .large-pull-3 {
+  .large-push-3 {
     position: relative;
     right: 25%;
     left: auto; }
-  .large-push-4 {
+  .large-pull-3 {
     position: relative;
-    left: 33.33333%;
+    left: 25%;
     right: auto; }
-  .large-pull-4 {
+  .large-push-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
-  .large-push-5 {
+  .large-pull-4 {
     position: relative;
-    left: 41.66667%;
+    left: 33.33333%;
     right: auto; }
-  .large-pull-5 {
+  .large-push-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
-  .large-push-6 {
+  .large-pull-5 {
     position: relative;
-    left: 50%;
+    left: 41.66667%;
     right: auto; }
-  .large-pull-6 {
+  .large-push-6 {
     position: relative;
     right: 50%;
     left: auto; }
-  .large-push-7 {
+  .large-pull-6 {
     position: relative;
-    left: 58.33333%;
+    left: 50%;
     right: auto; }
-  .large-pull-7 {
+  .large-push-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
-  .large-push-8 {
+  .large-pull-7 {
     position: relative;
-    left: 66.66667%;
+    left: 58.33333%;
     right: auto; }
-  .large-pull-8 {
+  .large-push-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
-  .large-push-9 {
+  .large-pull-8 {
     position: relative;
-    left: 75%;
+    left: 66.66667%;
     right: auto; }
-  .large-pull-9 {
+  .large-push-9 {
     position: relative;
     right: 75%;
     left: auto; }
-  .large-push-10 {
+  .large-pull-9 {
     position: relative;
-    left: 83.33333%;
+    left: 75%;
     right: auto; }
-  .large-pull-10 {
+  .large-push-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
-  .large-push-11 {
+  .large-pull-10 {
     position: relative;
-    left: 91.66667%;
+    left: 83.33333%;
     right: auto; }
-  .large-pull-11 {
+  .large-push-11 {
     position: relative;
     right: 91.66667%;
     left: auto; }
+  .large-pull-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto; }
   .column, .columns {
     position: relative;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    float: left; }
+    float: right; }
   .large-1 {
     width: 8.33333%; }
   .large-2 {
@@ -1069,49 +1069,49 @@ select {
   .large-12 {
     width: 100%; }
   .large-offset-0 {
-    margin-left: 0% !important; }
+    margin-right: 0% !important; }
   .large-offset-1 {
-    margin-left: 8.33333% !important; }
+    margin-right: 8.33333% !important; }
   .large-offset-2 {
-    margin-left: 16.66667% !important; }
+    margin-right: 16.66667% !important; }
   .large-offset-3 {
-    margin-left: 25% !important; }
+    margin-right: 25% !important; }
   .large-offset-4 {
-    margin-left: 33.33333% !important; }
+    margin-right: 33.33333% !important; }
   .large-offset-5 {
-    margin-left: 41.66667% !important; }
+    margin-right: 41.66667% !important; }
   .large-offset-6 {
-    margin-left: 50% !important; }
+    margin-right: 50% !important; }
   .large-offset-7 {
-    margin-left: 58.33333% !important; }
+    margin-right: 58.33333% !important; }
   .large-offset-8 {
-    margin-left: 66.66667% !important; }
+    margin-right: 66.66667% !important; }
   .large-offset-9 {
-    margin-left: 75% !important; }
+    margin-right: 75% !important; }
   .large-offset-10 {
-    margin-left: 83.33333% !important; }
+    margin-right: 83.33333% !important; }
   .large-offset-11 {
-    margin-left: 91.66667% !important; }
+    margin-right: 91.66667% !important; }
   .large-reset-order {
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
     left: auto;
     right: auto;
-    float: left; }
+    float: right; }
   .column.large-centered, .columns.large-centered {
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     float: none; }
   .column.large-uncentered, .columns.large-uncentered {
-    margin-left: 0;
     margin-right: 0;
-    float: left; }
+    margin-left: 0;
+    float: right; }
   .column.large-centered:last-child, .columns.large-centered:last-child {
     float: none; }
   .column.large-uncentered:last-child, .columns.large-uncentered:last-child {
-    float: left; }
-  .column.large-uncentered.opposite, .columns.large-uncentered.opposite {
     float: right; }
+  .column.large-uncentered.opposite, .columns.large-uncentered.opposite {
+    float: left; }
   .row.large-collapse > .column, .row.large-collapse > .columns {
     padding-left: 0;
     padding-right: 0; }
@@ -1121,103 +1121,103 @@ select {
   .row.large-uncollapse > .column, .row.large-uncollapse > .columns {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    float: left; }
+    float: right; }
   .push-0 {
-    position: relative;
-    left: 0%;
-    right: auto; }
-  .pull-0 {
     position: relative;
     right: 0%;
     left: auto; }
-  .push-1 {
+  .pull-0 {
     position: relative;
-    left: 8.33333%;
+    left: 0%;
     right: auto; }
-  .pull-1 {
+  .push-1 {
     position: relative;
     right: 8.33333%;
     left: auto; }
-  .push-2 {
+  .pull-1 {
     position: relative;
-    left: 16.66667%;
+    left: 8.33333%;
     right: auto; }
-  .pull-2 {
+  .push-2 {
     position: relative;
     right: 16.66667%;
     left: auto; }
-  .push-3 {
+  .pull-2 {
     position: relative;
-    left: 25%;
+    left: 16.66667%;
     right: auto; }
-  .pull-3 {
+  .push-3 {
     position: relative;
     right: 25%;
     left: auto; }
-  .push-4 {
+  .pull-3 {
     position: relative;
-    left: 33.33333%;
+    left: 25%;
     right: auto; }
-  .pull-4 {
+  .push-4 {
     position: relative;
     right: 33.33333%;
     left: auto; }
-  .push-5 {
+  .pull-4 {
     position: relative;
-    left: 41.66667%;
+    left: 33.33333%;
     right: auto; }
-  .pull-5 {
+  .push-5 {
     position: relative;
     right: 41.66667%;
     left: auto; }
-  .push-6 {
+  .pull-5 {
     position: relative;
-    left: 50%;
+    left: 41.66667%;
     right: auto; }
-  .pull-6 {
+  .push-6 {
     position: relative;
     right: 50%;
     left: auto; }
-  .push-7 {
+  .pull-6 {
     position: relative;
-    left: 58.33333%;
+    left: 50%;
     right: auto; }
-  .pull-7 {
+  .push-7 {
     position: relative;
     right: 58.33333%;
     left: auto; }
-  .push-8 {
+  .pull-7 {
     position: relative;
-    left: 66.66667%;
+    left: 58.33333%;
     right: auto; }
-  .pull-8 {
+  .push-8 {
     position: relative;
     right: 66.66667%;
     left: auto; }
-  .push-9 {
+  .pull-8 {
     position: relative;
-    left: 75%;
+    left: 66.66667%;
     right: auto; }
-  .pull-9 {
+  .push-9 {
     position: relative;
     right: 75%;
     left: auto; }
-  .push-10 {
+  .pull-9 {
     position: relative;
-    left: 83.33333%;
+    left: 75%;
     right: auto; }
-  .pull-10 {
+  .push-10 {
     position: relative;
     right: 83.33333%;
     left: auto; }
+  .pull-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto; }
   .push-11 {
     position: relative;
-    left: 91.66667%;
-    right: auto; }
+    right: 91.66667%;
+    left: auto; }
   .pull-11 {
     position: relative;
-    right: 91.66667%;
-    left: auto; } }
+    left: 91.66667%;
+    right: auto; } }
 
 [class*="block-grid-"] {
   display: block;
@@ -1231,7 +1231,7 @@ select {
   [class*="block-grid-"] > li {
     display: block;
     height: auto;
-    float: left;
+    float: right;
     padding: 0 0.625rem 1.25rem; }
 
 @media only screen {
@@ -1498,15 +1498,15 @@ select {
 
 .inline-list {
   margin: 0 auto 1.0625rem auto;
-  margin-left: -1.375rem;
-  margin-right: 0;
+  margin-right: -1.375rem;
+  margin-left: 0;
   padding: 0;
   list-style: none;
   overflow: hidden; }
   .inline-list > li {
     list-style: none;
-    float: left;
-    margin-left: 1.375rem;
+    float: right;
+    margin-right: 1.375rem;
     display: inline-block; }
     .inline-list > li > * {
       display: inline-block; }
@@ -1514,12 +1514,12 @@ select {
 ul.pagination {
   display: block;
   min-height: 1.5rem;
-  margin-left: -0.3125rem; }
+  margin-right: -0.3125rem; }
   ul.pagination li {
     height: 1.5rem;
     color: #222222;
     font-size: 0.875rem;
-    margin-left: 0.3125rem; }
+    margin-right: 0.3125rem; }
     ul.pagination li a, ul.pagination li button {
       display: block;
       padding: 0.0625rem 0.625rem 0.0625rem;
@@ -1545,7 +1545,7 @@ ul.pagination {
       ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
         background: #008CBA; }
   ul.pagination li {
-    float: left;
+    float: right;
     display: block; }
 
 /* Pagination centred wrapper */
@@ -1583,7 +1583,7 @@ table {
     padding: 0.5625rem 0.625rem;
     font-size: 0.875rem;
     color: #222222;
-    text-align: left; }
+    text-align: right; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #F9F9F9; }
   table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, table tbody tr td, table tr td {
@@ -1721,12 +1721,12 @@ a {
 p {
   font-family: inherit;
   font-weight: 300;
-  font-size: 1.0625rem;
+  font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.28125rem;
+    font-size: 1.46875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -1735,7 +1735,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'WMitra', "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #6e6e6e;
@@ -1749,22 +1749,22 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.5rem; }
 
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 2.0625rem; }
 
 h3 {
-  font-size: 1.375rem; }
+  font-size: 1.75rem; }
 
 h4 {
-  font-size: 1.125rem; }
+  font-size: 1.5rem; }
 
 h5 {
-  font-size: 1.125rem; }
+  font-size: 1.5rem; }
 
 h6 {
-  font-size: 1rem; }
+  font-size: 1.375rem; }
 
 .subheader {
   line-height: 1.4;
@@ -1805,44 +1805,44 @@ code {
 
 /* Lists */
 ul, ol, dl {
-  font-size: 1.0625rem;
+  font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
 
 ul {
-  margin-left: 1.1rem; }
+  margin-right: 1.1rem; }
   ul.no-bullet {
-    margin-left: 0; }
+    margin-right: 0; }
     ul.no-bullet li ul, ul.no-bullet li ol {
-      margin-left: 1.25rem;
+      margin-right: 1.25rem;
       margin-bottom: 0;
       list-style: none; }
 
 /* Unordered Lists */
 ul li ul, ul li ol {
-  margin-left: 1.25rem;
+  margin-right: 1.25rem;
   margin-bottom: 0; }
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit; }
 ul.square {
   list-style-type: square;
-  margin-left: 1.1rem; }
+  margin-right: 1.1rem; }
 ul.circle {
   list-style-type: circle;
-  margin-left: 1.1rem; }
+  margin-right: 1.1rem; }
 ul.disc {
   list-style-type: disc;
-  margin-left: 1.1rem; }
+  margin-right: 1.1rem; }
 ul.no-bullet {
   list-style: none; }
 
 /* Ordered Lists */
 ol {
-  margin-left: 1.4rem; }
+  margin-right: 1.4rem; }
   ol li ul, ol li ol {
-    margin-left: 1.25rem;
+    margin-right: 1.25rem;
     margin-bottom: 0; }
 
 /* Definition Lists */
@@ -1868,7 +1868,7 @@ abbr {
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #DDDDDD; }
+  border-right: 1px solid #DDDDDD; }
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
@@ -1908,17 +1908,17 @@ blockquote, blockquote p {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
   h1 {
-    font-size: 2.75rem; }
+    font-size: 3.125rem; }
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 2.6875rem; }
   h3 {
-    font-size: 1.6875rem; }
+    font-size: 2.0625rem; }
   h4 {
-    font-size: 1.4375rem; }
+    font-size: 1.8125rem; }
   h5 {
-    font-size: 1.125rem; }
+    font-size: 1.5rem; }
   h6 {
-    font-size: 1rem; } }
+    font-size: 1.375rem; } }
 
 .fa {
   display: inline-block;
@@ -3627,17 +3627,20 @@ blockquote, blockquote p {
 .content__about {
   margin-bottom: 5.3125rem; }
   .content__about p {
-    font-size: 2.1875rem;
+    font-size: 2.5625rem;
     color: #999999;
     margin-bottom: 0.9375rem;
     line-height: 1.4; }
+
+.content__about {
+  margin-bottom: 11.25rem; }
 
 .services i {
   font-size: 4.375rem;
   color: #bfbfbf; }
 
 .read-more {
-  font-size: 0.9375rem;
+  font-size: 1.3125rem;
   font-weight: 400; }
 
 .page--portfolio .container {
@@ -3667,7 +3670,7 @@ blockquote, blockquote p {
   font-weight: bold;
   font-size: 1.25rem;
   top: 1.25rem;
-  left: 1.25rem; }
+  right: 1.25rem; }
 
 .layer, .item__title {
   -webkit-transition: all 400ms ease 0;
@@ -3704,11 +3707,11 @@ blockquote, blockquote p {
     font-size: 0.9375rem; }
     .details ul li:before {
       content: "—";
-      padding-right: 0.3125rem; }
+      padding-left: 0.3125rem; }
   .details ul:first-of-type {
-    float: left; }
-  .details ul:nth-of-type(2n) {
     float: right; }
+  .details ul:nth-of-type(2n) {
+    float: left; }
 
 .details__title {
   font-size: 1rem;
@@ -3726,7 +3729,7 @@ blockquote, blockquote p {
   margin: 3.125rem 0 1.875rem; }
 
 body {
-  direction: ltr; }
+  direction: rtl; }
 
 a {
   -webkit-transition: all 300ms ease-out 0;
@@ -3735,7 +3738,8 @@ a {
 
 .header__logo, .footer__logo {
   font-family: 'Expletus Sans';
-  line-height: 1; }
+  line-height: 1;
+  font-family: 'WMitra'; }
   .header__logo a, .footer__logo a {
     transition: none; }
 
@@ -3743,22 +3747,22 @@ a {
   padding: 1.375rem 0 5rem; }
 
 .header__logo {
-  font-size: 2.1875rem;
+  font-size: 2.5625rem;
   margin: 0; }
 
 .header__nav {
   margin-bottom: 0;
   padding-top: 0.1875rem;
-  float: right; }
+  float: left; }
   .header__nav li {
-    margin-left: 2.1875rem; }
+    margin-right: 2.1875rem; }
     @media only screen and (min-width:40.063em) and (max-width:64em) {
       .header__nav li {
-        margin-left: 1.5625rem; } }
+        margin-right: 1.5625rem; } }
     .header__nav li:first-child {
-      margin-left: 0; }
+      margin-right: 0; }
     .header__nav li a {
-      font-size: 0.875rem; }
+      font-size: 1.25rem; }
     .header__nav li.active a {
       color: #595959;
       font-weight: 400; }
@@ -3769,7 +3773,7 @@ a {
   .cl-effect-3 li a::after {
     position: absolute;
     top: 1.875rem;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 2px;
     background: #787878;
@@ -3794,7 +3798,7 @@ a {
   transform: none; }
 
 .lang {
-  text-align: right;
+  text-align: left;
   padding-bottom: 2.25rem;
   font-size: 0.875rem; }
   .lang .active {
@@ -3807,9 +3811,9 @@ a {
     background: #adadad;
     display: inline-block; }
   .lang .lang__eng {
-    padding-right: 0.125rem; }
-  .lang .lang__fa {
     padding-left: 0.125rem; }
+  .lang .lang__fa {
+    padding-right: 0.125rem; }
 
 .container {
   margin: 7.5rem 0 11.25rem; }
@@ -3823,13 +3827,13 @@ a {
 .content--single a {
   text-decoration: underline; }
 .content--single ul {
-  margin-left: 2.5rem; }
+  margin-right: 2.5rem; }
 
 .footer__logo, .footer__nav {
-  float: left; }
+  float: right; }
 
 .footer__social, .footer__copyright {
-  float: right; }
+  float: left; }
 
 .footer {
   background: #0d0d0d;
@@ -3837,17 +3841,17 @@ a {
   font-weight: normal; }
 
 .footer__logo {
-  font-size: 1.625rem;
+  font-size: 2rem;
   margin-bottom: 1.25rem;
   display: inline-block;
   width: 100%; }
 
 .footer__nav {
   margin-bottom: 0;
-  font-size: 0.75rem; }
+  font-size: 1.125rem; }
 
 .footer__logo, .footer__nav {
-  text-align: left; }
+  text-align: right; }
 
 .footer__copyright {
   display: inline-block;
@@ -3855,13 +3859,13 @@ a {
   font-size: 0.8125rem;
   margin-bottom: 0;
   width: 100%;
-  text-align: right;
+  text-align: left;
   direction: ltr;
   font-family: 'open sans'; }
 
 .footer__social {
   margin-bottom: 1.875rem;
-  float: right;
+  float: left;
   line-height: 1; }
   .footer__social i {
     font-size: 1.0625rem; }
@@ -3892,9 +3896,9 @@ a {
   .header__nav {
     display: inline-block; }
     .header__nav li {
-      margin-left: 1.5625rem; }
+      margin-right: 1.5625rem; }
   .inline-list.header__nav {
-    margin-left: 0; }
+    margin-right: 0; }
   .footer__social {
     margin-bottom: 2.5rem; }
   .footer__nav {
