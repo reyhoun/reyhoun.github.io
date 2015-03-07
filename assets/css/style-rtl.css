@@ -3632,6 +3632,13 @@ blockquote, blockquote p {
     margin-bottom: 0.9375rem;
     line-height: 1.4; }
 
+.content__about {
+  margin-bottom: 12.5rem; }
+
+.services i {
+  font-size: 4.375rem;
+  color: #bfbfbf; }
+
 .read-more {
   font-size: 0.9375rem;
   font-weight: 400; }

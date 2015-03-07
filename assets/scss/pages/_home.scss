@@ -8,6 +8,20 @@
 	}
 }
 
+
+@include if-rtl {
+	.content__about {
+		margin-bottom: rem-calc(200);
+	}	
+}
+
+.services {
+	i {
+		font-size: rem-calc(70);
+		color: lighten($body-font-color, 35%);
+	}
+}
+
 .read-more {
 	font-size: rem-calc(15);
 	font-weight: 400;
