@@ -4,6 +4,9 @@
 $color-base: #666;
 $experimental: true;
 
+$rtl-size-change: 6;
+$rsc: $rtl-size-change;
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
@@ -212,12 +215,12 @@ $header-font-color: scale-color($color-base, $lightness: 5%);
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+$h1-font-size: rem-calc(dir-check(44, 44 + $rsc));
+$h2-font-size: rem-calc(dir-check(37, 37 + $rsc));
+$h3-font-size: rem-calc(dir-check(27, 27 + $rsc));
+$h4-font-size: rem-calc(dir-check(23, 23 + $rsc));
+$h5-font-size: rem-calc(dir-check(18, 18 + $rsc));
+$h6-font-size: rem-calc(dir-check(16, 16 + $rsc));
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10) !default;
@@ -241,7 +244,7 @@ $header-font-color: scale-color($color-base, $lightness: 5%);
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 $paragraph-font-weight: $body-font-weight;
-$paragraph-font-size: rem-calc(17);
+$paragraph-font-size: rem-calc(dir-check(17, 17 + $rsc - 3));
 $paragraph-line-height: rem-calc(30);
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);

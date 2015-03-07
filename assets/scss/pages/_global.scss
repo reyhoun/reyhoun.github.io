@@ -13,6 +13,10 @@ a {
 	a {
 		transition: none;
 	}
+
+	@include if-rtl {
+		font-family: 'WMitra';
+	}
 }
 
 // Header styles
@@ -21,7 +25,7 @@ a {
 }
 
 .header__logo {
-	font-size: rem-calc(35);
+	font-size: rem-calc(dir-check(35, 35 + $rsc));
 	margin: 0;
 }
 
@@ -39,9 +43,11 @@ a {
 		&:first-child {
 			margin-#{$start}: 0;
 		}
+
 		a {
-			font-size: rem-calc(14);
+			font-size: rem-calc(dir-check(14, 14 + $rsc));
 		}
+
 		&.active {
 			a {
 				color: darken($color-base, 5%);
@@ -138,10 +144,12 @@ a {
 }
 
 // Link Style on content in about and blog pages
-.post-content,
 .content--single {
 	a {
 		text-decoration: underline;
+	}
+	ul {
+		margin-#{$start}: rem-calc(40);
 	}
 }
 
@@ -163,7 +171,7 @@ a {
 }
 
 .footer__logo {
-	font-size: rem-calc(26);
+	font-size: rem-calc(dir-check(26, 26 + $rsc));
 	margin-bottom: rem-calc(20);
 	display: inline-block;
 	width: 100%;
@@ -171,7 +179,7 @@ a {
 
 .footer__nav {
 	margin-bottom: 0;
-	font-size: rem-calc(12);
+	font-size: rem-calc(dir-check(12, 12 + $rsc));
 }
 
 .footer__logo,
@@ -186,6 +194,8 @@ a {
 	margin-bottom: 0;
 	width: 100%;
 	text-align: $end;
+	direction: ltr;
+	font-family: 'open sans';
 }
 
 .footer__social {
