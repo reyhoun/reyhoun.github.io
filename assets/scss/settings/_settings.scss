@@ -133,6 +133,9 @@ $body-font-color: $color-base;
 $body-font-family: "Open Sans", $font-family-sans-serif;
 $body-font-weight: 300;
 // $body-font-style: normal;
+@if ($text-direction == 'rtl') {
+	$body-font-family: 'WMitra', $body-font-family;
+}
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;

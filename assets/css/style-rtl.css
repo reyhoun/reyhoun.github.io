@@ -379,7 +379,7 @@ body {
   color: #666;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'WMitra', "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1.5;
@@ -1735,7 +1735,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'WMitra', "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #6e6e6e;
@@ -3736,7 +3736,7 @@ a {
     transition: none; }
 
 .header {
-  padding: 5rem 0; }
+  padding: 1.375rem 0 5rem; }
 
 .header__logo {
   font-size: 2.1875rem;
@@ -3748,11 +3748,64 @@ a {
   float: left; }
   .header__nav li {
     margin-right: 2.1875rem; }
+    @media only screen and (min-width:40.063em) and (max-width:64em) {
+      .header__nav li {
+        margin-right: 1.5625rem; } }
+    .header__nav li:first-child {
+      margin-right: 0; }
     .header__nav li a {
       font-size: 0.875rem; }
     .header__nav li.active a {
       color: #595959;
       font-weight: 400; }
+
+.cl-effect-3 li a {
+  position: relative;
+  padding-bottom: 0.625rem; }
+  .cl-effect-3 li a::after {
+    position: absolute;
+    top: 1.875rem;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: #787878;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px); }
+  .cl-effect-3 li a:hover:after, .cl-effect-3 li a:focus:after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px); }
+.cl-effect-3 li.active a::after {
+  bottom: 0;
+  background: #595959;
+  opacity: 1;
+  transition: none;
+  transform: none; }
+
+.lang {
+  text-align: left;
+  padding-bottom: 2.25rem;
+  font-size: 0.875rem; }
+  .lang .active {
+    color: #9f9f9f;
+    cursor: default; }
+  .lang .separator-line {
+    width: 0.0625rem;
+    height: 0.875rem;
+    vertical-align: middle;
+    background: #adadad;
+    display: inline-block; }
+  .lang .lang__eng {
+    padding-left: 0.125rem; }
+  .lang .lang__fa {
+    padding-right: 0.125rem; }
 
 .container {
   margin: 7.5rem 0 11.25rem; }
@@ -3762,6 +3815,9 @@ a {
   margin-bottom: 3.125rem;
   line-height: 1;
   margin-top: 0; }
+
+.post-content a, .content--single a {
+  text-decoration: underline; }
 
 .footer__logo, .footer__nav {
   float: right; }
@@ -3815,39 +3871,11 @@ a {
 .header__nav li, .footer__nav li {
   text-transform: uppercase; }
 
-.cl-effect-3 li a {
-  position: relative;
-  padding-bottom: 0.625rem; }
-  .cl-effect-3 li a::after {
-    position: absolute;
-    top: 1.875rem;
-    right: 0;
-    width: 100%;
-    height: 2px;
-    background: #787878;
-    content: '';
-    opacity: 0;
-    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-    transition: opacity 0.3s, transform 0.3s;
-    -webkit-transform: translateY(10px);
-    -moz-transform: translateY(10px);
-    transform: translateY(10px); }
-  .cl-effect-3 li a:hover:after, .cl-effect-3 li a:focus:after {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    transform: translateY(0px); }
-.cl-effect-3 li.active a::after {
-  bottom: 0;
-  background: #595959;
-  opacity: 1;
-  transition: none;
-  transform: none; }
-
 @media only screen and (max-width: 40em) {
   .header {
-    padding: 2.5rem 0 5rem; }
+    padding: 1.25rem 0 5rem; }
+  .lang {
+    padding-bottom: 1.25rem; }
   .header__logo, .header__nav {
     text-align: center;
     float: none; }
@@ -3857,6 +3885,8 @@ a {
     display: inline-block; }
     .header__nav li {
       margin-right: 1.5625rem; }
+  .inline-list.header__nav {
+    margin-right: 0; }
   .footer__social {
     margin-bottom: 2.5rem; }
   .footer__nav {
@@ -3874,9 +3904,6 @@ a {
     float: none;
     text-align: center;
     display: inline-block; } }
-
-.post-content a, .content--single a {
-  text-decoration: underline; }
 
 .content--single h3 {
   margin: 0 0 1.25rem; }
