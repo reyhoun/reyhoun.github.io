@@ -15,10 +15,9 @@ a {
 	}
 }
 
-
-//header styles
+// Header styles
 .header {
-	padding: rem-calc(80 0);
+	padding: rem-calc(22 0 80);
 }
 
 .header__logo {
@@ -32,6 +31,14 @@ a {
 	float: $end;
 	li {
 		margin-#{$start}: rem-calc(35);
+
+		@include breakpoint(medium) {
+			margin-#{$start}: rem-calc(25);
+		}
+
+		&:first-child {
+			margin-#{$start}: 0;
+		}
 		a {
 			font-size: rem-calc(14);
 		}
@@ -44,8 +51,81 @@ a {
 	}
 }
 
+// Header Links hover effects
+.cl-effect-3 {
+	li {
+		a {
+			position: relative;
+			padding-bottom: rem-calc(10);
+			&::after {
+				position: absolute;
+				top: rem-calc(30);
+				#{$start}: 0;
+				width: 100%;
+				height: 2px;
+				background: $anchor-font-color;
+				content: '';
+				opacity: 0;
+				-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+				-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+				transition: opacity 0.3s, transform 0.3s;
+				-webkit-transform: translateY(10px);
+				-moz-transform: translateY(10px);
+				transform: translateY(10px);
+			}
 
-//container styles
+			&:hover,
+			&:focus {
+				&:after {
+					opacity: 1;
+					-webkit-transform: translateY(0px);
+					-moz-transform: translateY(0px);
+					transform: translateY(0px);
+				}
+			}
+		}
+		&.active {
+			a {
+				&::after {
+					bottom: rem-calc(0);
+					background: darken($color-base, 5%);
+					opacity: 1;
+					transition: none;
+					transform: none;
+				}
+			}
+		}
+	}
+}
+
+// Language Links
+.lang {
+	text-align: $end;
+	padding-bottom: rem-calc(36);
+	font-size: rem-calc(14);
+
+	.active {
+		color: lighten($anchor-font-color, 15%);
+		cursor: default;
+	}
+
+	.separator-line {
+		width: rem-calc(1);
+		height: rem-calc(14);
+		vertical-align: middle;
+		background: lighten($header-font-color, 25%);
+		display: inline-block;
+	}
+
+	.lang__eng {
+		padding-#{$end}: rem-calc(2);
+	}
+	.lang__fa {
+		padding-#{$start}: rem-calc(2);
+	}
+}
+
+// Container styles
 .container {
 	margin: rem-calc(120 0 180);
 }
@@ -57,8 +137,15 @@ a {
 	margin-top: 0;
 }
 
+// Link Style on content in about and blog pages
+.post-content,
+.content--single {
+	a {
+		text-decoration: underline;
+	}
+}
 
-//footer styles
+// Footer styles
 .footer__logo,
 .footer__nav {
 	float: $start;
@@ -135,58 +222,15 @@ a {
 	}
 }
 
-// Header Links hover effects
-.cl-effect-3 {
-	li {
-		a {
-			position: relative;
-			padding-bottom: rem-calc(10);
-			&::after {
-				position: absolute;
-				top: rem-calc(30);
-				#{$start}: 0;
-				width: 100%;
-				height: 2px;
-				background: $anchor-font-color;
-				content: '';
-				opacity: 0;
-				-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-				-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-				transition: opacity 0.3s, transform 0.3s;
-				-webkit-transform: translateY(10px);
-				-moz-transform: translateY(10px);
-				transform: translateY(10px);
-			}
-
-			&:hover,
-			&:focus {
-				&:after {
-					opacity: 1;
-					-webkit-transform: translateY(0px);
-					-moz-transform: translateY(0px);
-					transform: translateY(0px);
-				}
-			}
-		}
-		&.active {
-			a {
-				&::after {
-					bottom: rem-calc(0);
-					background: darken($color-base, 5%);
-					opacity: 1;
-					transition: none;
-					transform: none;
-				}
-			}
-		}
-	}
-}
-
 
 // Mobile mode styles
 @include breakpoint(small) {
 	.header {
-		padding: rem-calc(40 0 80);
+		padding: rem-calc(20 0 80);
+	}
+
+	.lang {
+		padding-bottom: rem-calc(20);
 	}
 
 	.header__logo,
@@ -203,6 +247,12 @@ a {
 		display: inline-block;
 		li {
 			margin-#{$start}: rem-calc(25);
+		}
+	}
+
+	.inline-list {
+		&.header__nav {
+			margin-#{$start}: 0;
 		}
 	}
 
@@ -238,13 +288,5 @@ a {
 		float: none;
 		text-align: center;
 		display: inline-block;
-	}
-}
-
-// Link Style on content in about and blog pages
-.post-content,
-.content--single {
-	a {
-		text-decoration: underline;
 	}
 }

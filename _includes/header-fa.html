@@ -1,11 +1,18 @@
 <header class="header">
 	<div class="row">
+		<div class="small-12 columns">
+			<div class="lang">
+				<a class="lang__eng" href="http://reyhoun.com/">En</a>
+				<span class="separator-line"></span>
+				<a class="lang__fa active" href="http://reyhoun.com/fa">Fa</a>
+			</div>
+		</div>
 		<div class="small-10 small-centered medium-3 medium-uncentered columns">
 			<div class="header__logo">
 				<a href="{{ site.baseurl }}/">{{ site.title_fa }}</a>
 			</div>
 		</div>
-		<div class="small-12 medium-7 columns small-text-center medium-text-right">
+		<div class="small-12 medium-7 columns small-text-center medium-text-left">
 			<ul class="inline-list header__nav cl-effect-3">
 				{% assign url = page.url|remove:'index.html' %}
 				{% for link in site.navigation_fa %}
