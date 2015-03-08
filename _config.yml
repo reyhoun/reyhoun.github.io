@@ -8,7 +8,7 @@ description_fa: >
   تمرکز خلاقانه برای ساده سازی چیزهایی که بر روی صفحه های نمایش نشان داده می شود
 baseurl: "" # the subpath of your site, e.g. /blog/
 baseurl_fa: "/fa"
-url: "http://reyhoun.github.io" # the base hostname & protocol for your site
+url: "http://reyhoun.com" # the base hostname & protocol for your site
 twitter_username: reyhoun
 github_username:  reyhoun
 behance_username:  reyhoun
