@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ریحون</title>
+    <description>تمرکز خلاقانه برای ساده سازی چیزهایی که بر روی صفحه های نمایش نشان داده می شود
+</description>
+    <link>http://reyhoun.com/fa/</link>
+    <atom:link href="http://reyhoun.com/fa/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 08 Mar 2015 07:44:56 +0330</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2015 07:44:56 +0330</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+	
+      <item>
+        <title>سلام به همه</title>
+        <description>&lt;p&gt;سلام به همه.
+این اولین نوشته فارسی ما در سایت ریحون هست. تصمیم داریم در وبلاگ ریحون مطالبی آموزشی در مورد تکنولوژی های جدید وب و همچنین تجربیاتی که داریم بنویسیم.&lt;/p&gt;
+
+&lt;p&gt;به امید اینکه بتوانیم کمکی هرچند کوچک به بهبود وب فارسی کرده باشیم.&lt;/p&gt;
+
+&lt;p&gt;با ما باشید.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2015 13:55:56 +0330</pubDate>
+        <link>http://reyhoun.github.io/fa/blog/hi-everyone</link>
+        <guid isPermaLink="true">http://reyhoun.github.io/fa/blog/hi-everyone</guid>
+        
+      </item>
+	
+  </channel>
+</rss>
