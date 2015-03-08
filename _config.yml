@@ -4,6 +4,8 @@ title_fa: ریحون
 email: info@reyhoun.com
 description: > # this means to ignore newlines until "baseurl:"
   Creative focus on simplicity and things that appear on screens
+description_fa: >
+  تمرکز خلاقانه برای ساده سازی چیزهایی که بر روی صفحه های نمایش نشان داده می شود
 baseurl: "" # the subpath of your site, e.g. /blog/
 baseurl_fa: "/fa"
 url: "http://reyhoun.github.io" # the base hostname & protocol for your site
