@@ -9,7 +9,7 @@ description_fa: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 baseurl_fa: "/fa"
 url: "http://reyhoun.com" # the base hostname & protocol for your site
-twitter_username: reyhoun
+twitter_username: ReyhounDesign
 github_username:  reyhoun
 behance_username:  reyhoun
 
