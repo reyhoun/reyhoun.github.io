@@ -11,7 +11,7 @@
 }
 
 .content__title {
-	font-size: rem-calc(20);
+	font-size: rem-calc(dir-check(20, 20 + $rsc));
 }
 
 .date {
