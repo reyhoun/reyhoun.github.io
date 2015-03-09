@@ -90,4 +90,17 @@
 			line-height: 1.5;
 		}
 	}
+
+	.services__box {
+		margin-bottom: rem-calc(75);
+		&.last {
+			margin-bottom: 0;
+		}
+	}
+
+	.btn {
+		a {
+			display: block;
+		}
+	}
 }
