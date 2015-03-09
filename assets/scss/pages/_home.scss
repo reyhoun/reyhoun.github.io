@@ -83,10 +83,10 @@
 	a {
 		display: inline-block;
 		border: 1px solid lighten($color-base, 35%);
-		padding: rem-calc(40 130);
+		padding: rem-calc(25 100);
 		border-radius: $global-radius;
 		margin-top: rem-calc(50);
-		font-size: rem-calc(22);
+		font-size: rem-calc(dir-check(22, 25));
 
 		&:hover {
 			border-color: lighten($color-base, 10%);

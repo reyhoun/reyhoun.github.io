@@ -3683,10 +3683,10 @@ blockquote, blockquote p {
 .btn a {
   display: inline-block;
   border: 1px solid #bfbfbf;
-  padding: 2.5rem 8.125rem;
+  padding: 1.5625rem 6.25rem;
   border-radius: 3px;
   margin-top: 3.125rem;
-  font-size: 1.375rem; }
+  font-size: 1.5625rem; }
   .btn a:hover {
     border-color: gray; }
 
