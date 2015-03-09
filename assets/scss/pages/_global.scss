@@ -146,8 +146,40 @@ a {
 // Link Style on content in about and blog pages
 .content--single {
 	a {
-		text-decoration: underline;
+		position: relative;
+		display: inline-block;
+		outline: none;
+		vertical-align: bottom;
+		text-decoration: none;
+		overflow: hidden;
+		padding: rem-calc(0 3 0);
+		color: darken($color-base, 20%);
+
+		&:before {
+			position: absolute;
+			content: '';
+			top: 0;
+			#{$start}: 0;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			background-color: darken($color-base, 20%);
+			-webkit-transition: -webkit-transform 0.2s;
+			transition: transform 0.2s;
+			-webkit-transform: translateY(95%);
+			transform: translateY(95%);
+		}
+
+		&:hover {
+			outline: 0;
+			color: #fff;
+			&:before {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+			}
+		}
 	}
+
 	ul {
 		margin-#{$start}: rem-calc(40);
 	}
