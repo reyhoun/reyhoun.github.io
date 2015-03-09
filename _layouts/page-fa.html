@@ -5,3 +5,8 @@ layout: default-fa
 <div class="content content--single">
 	{{ content }}
 </div>
+{% if page.type == 'service' %}
+<div class="btn text-center">
+	<a href="/fa/">بازگشت به خدمات</a>
+</div>
+{% endif %}
