@@ -205,7 +205,11 @@ $body-font-weight: 300;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
+$header-font-family: $body-font-family;
+@if ($text-direction == 'rtl') {
+	$header-font-family: 'WYekan', $body-font-family;
+}
+
 $header-font-weight: $body-font-weight;
 // $header-font-style: normal;
 $header-font-color: scale-color($color-base, $lightness: 5%);
@@ -217,9 +221,9 @@ $header-font-color: scale-color($color-base, $lightness: 5%);
 // We use these to control header font sizes
 $h1-font-size: rem-calc(dir-check(44, 44 + $rsc));
 $h2-font-size: rem-calc(dir-check(37, 37 + $rsc));
-$h3-font-size: rem-calc(dir-check(27, 27 + $rsc));
-$h4-font-size: rem-calc(dir-check(23, 23 + $rsc));
-$h5-font-size: rem-calc(dir-check(18, 18 + $rsc));
+$h3-font-size: rem-calc(dir-check(27, 27 + $rsc + 2));
+$h4-font-size: rem-calc(dir-check(23, 23 + $rsc + 1));
+$h5-font-size: rem-calc(dir-check(18, 18 + $rsc + 2));
 $h6-font-size: rem-calc(dir-check(16, 16 + $rsc));
 
 // We use these to control header size reduction on small screens
@@ -244,9 +248,9 @@ $h6-font-size: rem-calc(dir-check(16, 16 + $rsc));
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 $paragraph-font-weight: $body-font-weight;
-$paragraph-font-size: rem-calc(dir-check(17, 17 + $rsc - 3));
-$paragraph-line-height: rem-calc(30);
-// $paragraph-margin-bottom: rem-calc(20);
+$paragraph-font-size: rem-calc(dir-check(17, 17 + $rsc + 1));
+$paragraph-line-height: 1.8;
+$paragraph-margin-bottom: rem-calc(dir-check(20, 35));
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;

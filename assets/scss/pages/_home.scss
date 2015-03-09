@@ -8,7 +8,6 @@
 	}
 }
 
-
 @include if-rtl {
 	.content__about {
 		margin-bottom: rem-calc(180);
@@ -20,13 +19,16 @@
 		font-size: rem-calc(70);
 		color: lighten($body-font-color, 35%);
 	}
+	p {
+		margin-bottom: rem-calc(15);
+		color: lighten($color-base, 15%);
+	}
 }
 
 .read-more {
 	font-size: rem-calc(dir-check(15, 15 + $rsc));
 	font-weight: 400;
 }
-
 
 .page--portfolio {
 	.container {

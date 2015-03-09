@@ -163,16 +163,15 @@ a {
 			z-index: -1;
 			width: 100%;
 			height: 100%;
-			background-color: darken($color-base, 20%);
+			background-color: lighten($color-base, 30%);
 			-webkit-transition: -webkit-transform 0.2s;
 			transition: transform 0.2s;
-			-webkit-transform: translateY(95%);
-			transform: translateY(95%);
+			-webkit-transform: translateY(97%);
+			transform: translateY(97%);
 		}
 
 		&:hover {
 			outline: 0;
-			color: #fff;
 			&:before {
 				-webkit-transform: translateY(0);
 				transform: translateY(0);
