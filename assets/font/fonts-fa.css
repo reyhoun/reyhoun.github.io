@@ -11,3 +11,17 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'WYekan';
+	src:  url('YekanWeb-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WYekan';
+	src:  url('YekanWeb-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}

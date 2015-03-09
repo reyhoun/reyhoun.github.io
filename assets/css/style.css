@@ -1722,7 +1722,7 @@ p {
   font-family: inherit;
   font-weight: 300;
   font-size: 1.0625rem;
-  line-height: 1.875rem;
+  line-height: 1.8;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
@@ -1806,7 +1806,7 @@ code {
 /* Lists */
 ul, ol, dl {
   font-size: 1.0625rem;
-  line-height: 1.875rem;
+  line-height: 1.8;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
@@ -1879,7 +1879,7 @@ blockquote {
       color: #8f8f8f; }
 
 blockquote, blockquote p {
-  line-height: 1.875rem;
+  line-height: 1.8;
   color: #a1a1a1; }
 
 /* Microformats */
@@ -3635,6 +3635,9 @@ blockquote, blockquote p {
 .services i {
   font-size: 4.375rem;
   color: #bfbfbf; }
+.services p {
+  margin-bottom: 0.9375rem;
+  color: #8c8c8c; }
 
 .read-more {
   font-size: 0.9375rem;
@@ -3674,12 +3677,28 @@ blockquote, blockquote p {
   -moz-transition: all 400ms ease 0;
   transition: all 400ms ease 0; }
 
+.btn a {
+  display: inline-block;
+  border: 1px solid #bfbfbf;
+  padding: 1.5625rem 6.25rem;
+  border-radius: 3px;
+  margin-top: 3.125rem;
+  font-size: 1.375rem; }
+  .btn a:hover {
+    border-color: gray; }
+
 @media only screen and (max-width: 40em) {
   .layer, .item__title {
     display: none; }
   .content__about p {
     font-size: 1.875rem;
-    line-height: 1.5; } }
+    line-height: 1.5; }
+  .services__box {
+    margin-bottom: 4.6875rem; }
+    .services__box.last {
+      margin-bottom: 0; }
+  .btn a {
+    display: block; } }
 
 .content__blog {
   border-bottom: 1px solid #f2f2f2;
@@ -3821,7 +3840,32 @@ a {
   margin-top: 0; }
 
 .content--single a {
-  text-decoration: underline; }
+  position: relative;
+  display: inline-block;
+  outline: none;
+  vertical-align: bottom;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 0 0.1875rem 0;
+  color: #333333; }
+  .content--single a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #b3b3b3;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    -webkit-transform: translateY(97%);
+    transform: translateY(97%); }
+  .content--single a:hover {
+    outline: 0; }
+    .content--single a:hover:before {
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
 .content--single ul {
   margin-left: 2.5rem; }
 
@@ -3916,7 +3960,7 @@ a {
 .content--single h3 {
   margin: 0 0 1.25rem; }
 .content--single img {
-  margin-top: 3.125rem; }
+  margin-top: 0.9375rem; }
 
 /**
  * Syntax highlighting styles

@@ -1721,12 +1721,12 @@ a {
 p {
   font-family: inherit;
   font-weight: 300;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 2.1875rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.46875rem;
+    font-size: 1.71875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -1735,7 +1735,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'WMitra', "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'WYekan', 'WMitra', "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #6e6e6e;
@@ -1755,13 +1755,13 @@ h2 {
   font-size: 2.0625rem; }
 
 h3 {
-  font-size: 1.75rem; }
+  font-size: 1.875rem; }
 
 h4 {
-  font-size: 1.5rem; }
+  font-size: 1.5625rem; }
 
 h5 {
-  font-size: 1.5rem; }
+  font-size: 1.625rem; }
 
 h6 {
   font-size: 1.375rem; }
@@ -1805,9 +1805,9 @@ code {
 
 /* Lists */
 ul, ol, dl {
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 2.1875rem;
   list-style-position: outside;
   font-family: inherit; }
 
@@ -1866,7 +1866,7 @@ abbr {
 
 /* Blockquotes */
 blockquote {
-  margin: 0 0 1.25rem;
+  margin: 0 0 2.1875rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-right: 1px solid #DDDDDD; }
   blockquote cite {
@@ -1879,7 +1879,7 @@ blockquote {
       color: #8f8f8f; }
 
 blockquote, blockquote p {
-  line-height: 1.875rem;
+  line-height: 1.8;
   color: #a1a1a1; }
 
 /* Microformats */
@@ -1912,11 +1912,11 @@ blockquote, blockquote p {
   h2 {
     font-size: 2.6875rem; }
   h3 {
-    font-size: 2.0625rem; }
+    font-size: 2.1875rem; }
   h4 {
-    font-size: 1.8125rem; }
+    font-size: 1.875rem; }
   h5 {
-    font-size: 1.5rem; }
+    font-size: 1.625rem; }
   h6 {
     font-size: 1.375rem; } }
 
@@ -3638,6 +3638,9 @@ blockquote, blockquote p {
 .services i {
   font-size: 4.375rem;
   color: #bfbfbf; }
+.services p {
+  margin-bottom: 0.9375rem;
+  color: #8c8c8c; }
 
 .read-more {
   font-size: 1.3125rem;
@@ -3677,12 +3680,28 @@ blockquote, blockquote p {
   -moz-transition: all 400ms ease 0;
   transition: all 400ms ease 0; }
 
+.btn a {
+  display: inline-block;
+  border: 1px solid #bfbfbf;
+  padding: 1.5625rem 6.25rem;
+  border-radius: 3px;
+  margin-top: 3.125rem;
+  font-size: 1.5625rem; }
+  .btn a:hover {
+    border-color: gray; }
+
 @media only screen and (max-width: 40em) {
   .layer, .item__title {
     display: none; }
   .content__about p {
     font-size: 1.875rem;
-    line-height: 1.5; } }
+    line-height: 1.5; }
+  .services__box {
+    margin-bottom: 4.6875rem; }
+    .services__box.last {
+      margin-bottom: 0; }
+  .btn a {
+    display: block; } }
 
 .content__blog {
   border-bottom: 1px solid #f2f2f2;
@@ -3694,7 +3713,7 @@ blockquote, blockquote p {
     padding-bottom: 0; }
 
 .content__title {
-  font-size: 1.25rem; }
+  font-size: 1.625rem; }
 
 .date {
   font-size: 0.9375rem;
@@ -3825,7 +3844,32 @@ a {
   margin-top: 0; }
 
 .content--single a {
-  text-decoration: underline; }
+  position: relative;
+  display: inline-block;
+  outline: none;
+  vertical-align: bottom;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 0 0.1875rem 0;
+  color: #333333; }
+  .content--single a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #b3b3b3;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    -webkit-transform: translateY(97%);
+    transform: translateY(97%); }
+  .content--single a:hover {
+    outline: 0; }
+    .content--single a:hover:before {
+      -webkit-transform: translateY(0);
+      transform: translateY(0); }
 .content--single ul {
   margin-right: 2.5rem; }
 
@@ -3920,7 +3964,7 @@ a {
 .content--single h3 {
   margin: 0 0 1.25rem; }
 .content--single img {
-  margin-top: 3.125rem; }
+  margin-top: 0.9375rem; }
 
 /**
  * Syntax highlighting styles
