@@ -18,10 +18,3 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
-@font-face {
-	font-family: 'WYekan';
-	src:  url('YekanWeb-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-}
