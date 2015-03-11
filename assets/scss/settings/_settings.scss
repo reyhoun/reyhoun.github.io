@@ -133,7 +133,7 @@ $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // We use these to control various global styles
 // $body-bg: $white;
 $body-font-color: $color-base;
-$body-font-family: "Open Sans", $font-family-sans-serif;
+$body-font-family: "Raleway", $font-family-sans-serif;
 $body-font-weight: 300;
 // $body-font-style: normal;
 @if ($text-direction == 'rtl') {
@@ -213,18 +213,18 @@ $header-font-family: $body-font-family;
 $header-font-weight: $body-font-weight;
 // $header-font-style: normal;
 $header-font-color: scale-color($color-base, $lightness: 5%);
-// $header-line-height: 1.4;
+$header-line-height: 1.6;
 // $header-top-margin: .2rem;
-// $header-bottom-margin: .5rem;
+$header-bottom-margin: 0;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: rem-calc(dir-check(44, 44 + $rsc));
-$h2-font-size: rem-calc(dir-check(37, 37 + $rsc));
-$h3-font-size: rem-calc(dir-check(27, 27 + $rsc + 2));
-$h4-font-size: rem-calc(dir-check(23, 23 + $rsc + 1));
-$h5-font-size: rem-calc(dir-check(18, 18 + $rsc + 2));
-$h6-font-size: rem-calc(dir-check(16, 16 + $rsc));
+$h1-font-size: rem-calc(dir-check(55, 50));
+$h2-font-size: rem-calc(dir-check(45, 43));
+$h3-font-size: rem-calc(dir-check(40, 35));
+$h4-font-size: rem-calc(dir-check(35, 30));
+$h5-font-size: rem-calc(dir-check(30, 26));
+$h6-font-size: rem-calc(dir-check(25, 22));
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10) !default;
@@ -248,8 +248,11 @@ $h6-font-size: rem-calc(dir-check(16, 16 + $rsc));
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 $paragraph-font-weight: $body-font-weight;
-$paragraph-font-size: rem-calc(dir-check(17, 17 + $rsc + 1));
-$paragraph-line-height: 1.8;
+$paragraph-font-size: rem-calc(dir-check(20, 24));
+$paragraph-line-height: 1.7;
+@if ($text-direction == 'rtl') {
+	$paragraph-line-height: 1.8;
+}
 $paragraph-margin-bottom: rem-calc(dir-check(20, 35));
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;

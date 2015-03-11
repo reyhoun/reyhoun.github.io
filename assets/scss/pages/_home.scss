@@ -23,6 +23,12 @@
 		margin-bottom: rem-calc(15);
 		color: lighten($color-base, 15%);
 	}
+	.read-more {
+		color: darken($anchor-font-color, 3%);
+		&:hover {
+			color: $anchor-font-color-hover;
+		}
+	}
 }
 
 .read-more {

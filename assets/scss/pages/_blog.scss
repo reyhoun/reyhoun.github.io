@@ -11,10 +11,10 @@
 }
 
 .content__title {
-	font-size: rem-calc(dir-check(20, 20 + $rsc));
+	font-size: rem-calc(dir-check(28, 28));
 }
 
 .date {
-	font-size: rem-calc(15);
+	font-size: rem-calc(dir-check(18, 16));
 	color: lighten($anchor-font-color, 7%);
 }
