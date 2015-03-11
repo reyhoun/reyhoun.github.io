@@ -379,7 +379,7 @@ body {
   color: #666;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1.5;
@@ -1721,12 +1721,12 @@ a {
 p {
   font-family: inherit;
   font-weight: 300;
-  font-size: 1.0625rem;
-  line-height: 1.8;
+  font-size: 1.25rem;
+  line-height: 1.7;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
-    font-size: 1.28125rem;
+    font-size: 1.46875rem;
     line-height: 1.6; }
   p aside {
     font-size: 0.875rem;
@@ -1735,36 +1735,36 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #6e6e6e;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.4; }
+  margin-bottom: 0;
+  line-height: 1.6; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #a1a1a1;
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.8125rem; }
 
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 2.1875rem; }
 
 h3 {
-  font-size: 1.375rem; }
+  font-size: 2.1875rem; }
 
 h4 {
-  font-size: 1.125rem; }
+  font-size: 1.875rem; }
 
 h5 {
-  font-size: 1.125rem; }
+  font-size: 1.875rem; }
 
 h6 {
-  font-size: 1rem; }
+  font-size: 1.5625rem; }
 
 .subheader {
   line-height: 1.4;
@@ -1805,8 +1805,8 @@ code {
 
 /* Lists */
 ul, ol, dl {
-  font-size: 1.0625rem;
-  line-height: 1.8;
+  font-size: 1.25rem;
+  line-height: 1.7;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
@@ -1879,7 +1879,7 @@ blockquote {
       color: #8f8f8f; }
 
 blockquote, blockquote p {
-  line-height: 1.8;
+  line-height: 1.7;
   color: #a1a1a1; }
 
 /* Microformats */
@@ -1906,19 +1906,19 @@ blockquote, blockquote p {
 
 @media only screen and (min-width:40.063em) {
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4; }
+    line-height: 1.6; }
   h1 {
-    font-size: 2.75rem; }
+    font-size: 3.4375rem; }
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 2.8125rem; }
   h3 {
-    font-size: 1.6875rem; }
+    font-size: 2.5rem; }
   h4 {
-    font-size: 1.4375rem; }
+    font-size: 2.1875rem; }
   h5 {
-    font-size: 1.125rem; }
+    font-size: 1.875rem; }
   h6 {
-    font-size: 1rem; } }
+    font-size: 1.5625rem; } }
 
 .fa {
   display: inline-block;
@@ -3638,6 +3638,10 @@ blockquote, blockquote p {
 .services p {
   margin-bottom: 0.9375rem;
   color: #8c8c8c; }
+.services .read-more {
+  color: #717171; }
+  .services .read-more:hover {
+    color: #474747; }
 
 .read-more {
   font-size: 0.9375rem;
@@ -3710,10 +3714,10 @@ blockquote, blockquote p {
     padding-bottom: 0; }
 
 .content__title {
-  font-size: 1.25rem; }
+  font-size: 1.75rem; }
 
 .date {
-  font-size: 0.9375rem;
+  font-size: 1.125rem;
   color: #8a8a8a; }
 
 .details ul {
@@ -3751,6 +3755,9 @@ a {
   -webkit-transition: all 300ms ease-out 0;
   -moz-transition: all 300ms ease-out 0;
   transition: all 300ms ease-out 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -1px; }
 
 .header__logo, .footer__logo {
   font-family: 'Expletus Sans';
@@ -3834,7 +3841,6 @@ a {
   margin: 7.5rem 0 11.25rem; }
 
 .container__title {
-  font-size: 2.8125rem;
   margin-bottom: 3.125rem;
   line-height: 1;
   margin-top: 0; }
@@ -3868,6 +3874,8 @@ a {
       transform: translateY(0); }
 .content--single ul {
   margin-left: 2.5rem; }
+  .content--single ul li {
+    margin-bottom: 0.3125rem; }
 
 .footer__logo, .footer__nav {
   float: left; }
@@ -3901,7 +3909,7 @@ a {
   width: 100%;
   text-align: right;
   direction: ltr;
-  font-family: 'open sans'; }
+  font-family: 'Raleway'; }
 
 .footer__social {
   margin-bottom: 1.875rem;
@@ -3957,8 +3965,6 @@ a {
     text-align: center;
     display: inline-block; } }
 
-.content--single h3 {
-  margin: 0 0 1.25rem; }
 .content--single img {
   margin-top: 0.9375rem; }
 
