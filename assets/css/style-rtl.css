@@ -3730,7 +3730,7 @@ blockquote, blockquote p {
   font-size: 1.0625rem; }
 
 .post-title {
-  margin-top: 0; }
+  margin: 0 0 1.25rem; }
 
 .post-date {
   font-size: 1.1875rem; }
