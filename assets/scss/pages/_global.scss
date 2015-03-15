@@ -215,7 +215,8 @@ h1,h2,h3,h4,h5,h6 {
 	}
 
 	ul {
-		margin-#{$start}: rem-calc(40);
+		list-style-type: circle;
+		list-style-position: inside;
 		li {
 			margin-bottom: rem-calc(5);
 		}
