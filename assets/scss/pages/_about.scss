@@ -1,5 +1,9 @@
 .content--single {
 	img {
 		margin-top: rem-calc(15);
+		
+		@include if-ltr() {
+			margin-top: rem-calc(50);
+		}
 	}
 }
