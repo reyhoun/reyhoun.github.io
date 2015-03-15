@@ -2,6 +2,10 @@ body {
 	direction: $text-direction;
 }
 
+.dir-ltr {
+    direction: ltr;
+}
+
 a {
 	@include transition();
 }

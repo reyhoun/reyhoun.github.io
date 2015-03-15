@@ -18,3 +18,23 @@
 	font-size: rem-calc(dir-check(18, 16));
 	color: lighten($anchor-font-color, 7%);
 }
+
+.post-meta {
+	margin-bottom: rem-calc(0);
+	line-height: 1;
+	color: lighten($header-font-color, 18%);
+	font-size: rem-calc(17);
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+@include if-rtl {
+	.post-date {
+		font-size: rem-calc(18);
+	}
+	.post-meta {
+		font-size: rem-calc(24);
+	}
+}
