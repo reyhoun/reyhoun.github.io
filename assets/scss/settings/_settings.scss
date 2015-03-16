@@ -2,6 +2,8 @@
 // Reyhoun
 //
 $color-base: #666;
+$main_primary_color: #A72970;
+
 $experimental: true;
 
 $rtl-size-change: 6;
@@ -272,8 +274,8 @@ $code-border-size: none;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-$anchor-font-color: scale-color($color-base, $lightness: 12%);
-$anchor-font-color-hover: scale-color($color-base, $lightness: -30%);
+$anchor-font-color: $main_primary_color;
+$anchor-font-color-hover: scale-color($main_primary_color, $lightness: -15%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;

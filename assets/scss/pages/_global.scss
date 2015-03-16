@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 
 		a {
 			font-size: rem-calc(dir-check(14, 14 + $rsc));
+			color: lighten($color-base, 12%);
 		}
 
 		&.active {
@@ -78,7 +79,7 @@ h1,h2,h3,h4,h5,h6 {
 				#{$start}: 0;
 				width: 100%;
 				height: 2px;
-				background: $anchor-font-color;
+				background: $main_primary_color;
 				content: '';
 				opacity: 0;
 				@include transition(all, 300ms);
@@ -124,7 +125,7 @@ h1,h2,h3,h4,h5,h6 {
 			a {
 				&::after {
 					bottom: rem-calc(0);
-					background: darken($color-base, 5%);
+					background: darken($main_primary_color, 5%);
 					opacity: 1;
 					transition: none;
 					transform: none;
@@ -147,7 +148,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: rem-calc(14);
 
 	.active {
-		color: lighten($anchor-font-color, 15%);
+		color: lighten($color-base, 27%);
 		cursor: default;
 	}
 
@@ -165,6 +166,10 @@ h1,h2,h3,h4,h5,h6 {
 	.lang__fa {
 		padding-#{$start}: rem-calc(2);
 	}
+
+	a {
+		color: $color-base;
+	}
 }
 
 // Container styles
@@ -180,39 +185,6 @@ h1,h2,h3,h4,h5,h6 {
 
 // Link Style on content in about and blog pages
 .content--single {
-	a {
-		position: relative;
-		display: inline-block;
-		outline: none;
-		vertical-align: bottom;
-		text-decoration: none;
-		overflow: hidden;
-		padding: rem-calc(0 3 0);
-		color: darken($color-base, 20%);
-
-		&:before {
-			position: absolute;
-			content: '';
-			top: 0;
-			#{$start}: 0;
-			z-index: -1;
-			width: 100%;
-			height: 100%;
-			background-color: lighten($color-base, 30%);
-			-webkit-transition: -webkit-transform 0.2s;
-			transition: transform 0.2s;
-			-webkit-transform: translateY(97%);
-			transform: translateY(97%);
-		}
-
-		&:hover {
-			outline: 0;
-			&:before {
-				-webkit-transform: translateY(0);
-				transform: translateY(0);
-			}
-		}
-	}
 
 	ul {
 		list-style-type: circle;
@@ -290,7 +262,7 @@ h1,h2,h3,h4,h5,h6 {
 	a {
 		color: lighten($color-base, 25%);
 		&:hover {
-			color: $anchor-font-color-hover;
+			color: $anchor-font-color;
 		}
 	}
 }

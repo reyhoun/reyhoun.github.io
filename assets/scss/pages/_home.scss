@@ -24,7 +24,7 @@
 		color: lighten($color-base, 15%);
 	}
 	.read-more {
-		color: darken($anchor-font-color, 3%);
+		color: lighten($color-base, 9%);
 		&:hover {
 			color: $anchor-font-color-hover;
 		}
@@ -34,6 +34,10 @@
 .read-more {
 	font-size: rem-calc(dir-check(15, 15 + $rsc));
 	font-weight: 400;
+	color: lighten($color-base, 9%);
+	&:hover {
+		color: $anchor-font-color-hover;
+	}
 }
 
 .page--portfolio {
@@ -93,9 +97,11 @@
 		border-radius: $global-radius;
 		margin-top: rem-calc(50);
 		font-size: rem-calc(dir-check(22, 25));
+		color: lighten($color-base, 12%);
 
 		&:hover {
-			border-color: lighten($color-base, 10%);
+			border-color: lighten($main_primary_color, 10%);
+			color: $main_primary_color;
 		}
 	}
 }

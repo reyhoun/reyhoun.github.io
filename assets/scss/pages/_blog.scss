@@ -1,5 +1,5 @@
 .content__blog {
-	border-bottom: 1px solid lighten(#666, 55%);
+	border-bottom: 1px solid lighten($color-base, 55%);
 	padding: rem-calc(25 0);
 	&:first-of-type {
 		padding-top: 0;
@@ -7,6 +7,15 @@
 	&:last-of-type {
 		border-bottom: none;
 		padding-bottom: 0;
+	}
+
+	a {
+		&.content__title {
+			color: lighten($color-base, 12%);
+			&:hover {
+				color: $anchor-font-color;
+			}
+		}
 	}
 }
 
@@ -16,7 +25,7 @@
 
 .date {
 	font-size: rem-calc(dir-check(18, 16));
-	color: lighten($anchor-font-color, 7%);
+	color: lighten($color-base, 20%);
 }
 
 .post-meta {
