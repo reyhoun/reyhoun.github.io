@@ -308,6 +308,23 @@ input[type="submit"] {
 	}
 }
 
+// Tables
+table {
+	thead{
+		tr {
+			border-bottom: 2px solid lighten($color-base, 55%);
+		}
+	}
+	tbody {
+		tr {
+			border-bottom: 1px solid lighten($color-base, 55%);
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
 // Mobile mode styles
 @include breakpoint(small) {
 	.header {
