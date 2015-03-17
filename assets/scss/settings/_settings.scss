@@ -104,7 +104,7 @@ $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
 
-// $white       : #FFFFFF;
+$white       : #FFFFFF;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -122,7 +122,7 @@ $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $tuatara     : #444444;
 // $oil         : #333333;
 // $jet         : #222222;
-// $black       : #000000;
+$black       : #000000;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
@@ -645,15 +645,15 @@ $include-html-media-classes: false;
 // $input-font-color: rgba(0,0,0,0.75);
 // $input-font-size: rem-calc(14);
 // $input-bg-color: $white;
-// $input-focus-bg-color: scale-color($white, $lightness: -2%);
-// $input-border-color: scale-color($white, $lightness: -20%);
-// $input-focus-border-color: scale-color($white, $lightness: -40%);
+$input-focus-bg-color: $white;
+$input-border-color: scale-color($color-base, $lightness: 70%);
+$input-focus-border-color: scale-color($input-border-color, $lightness: -20%);
 // $input-border-style: solid;
 // $input-border-width: 1px;
 // $input-border-radius: $global-radius;
 // $input-disabled-bg: $gainsboro;
 // $input-disabled-cursor: $cursor-default-value;
-// $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+$input-box-shadow: inset 0 1px 2px rgba(0,0,0,0);
 
 // We use these to style the fieldset border and spacing.
 // $fieldset-border-style: solid;
@@ -795,7 +795,7 @@ $include-html-keystroke-classes: false;
 // 16. Labels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-label-classes: false;
+// $include-html-label-classes: $include-html-classes;
 
 // We use these to style the labels
 // $label-padding: rem-calc(4 8 4);
@@ -967,7 +967,7 @@ $include-html-orbit-classes: false;
 // 21. Panels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-panel-classes: false;
+$include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
 // $panel-bg: scale-color($white, $lightness: -5%);
@@ -992,7 +992,7 @@ $include-html-panel-classes: false;
 // 22. Pricing Tables
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-pricing-classes: false;
+$include-html-pricing-classes: $include-html-classes;
 
 // We use this to control the border color
 // $price-table-border: solid 1px $gainsboro;
@@ -1102,7 +1102,7 @@ $include-html-range-slider-classes: false;
 // 25. Reveal
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-reveal-classes: false;
+$include-html-reveal-classes: $include-html-classes;
 
 // We use these to control the style of the reveal overlay.
 // $reveal-overlay-bg: rgba($black, .45);
@@ -1138,7 +1138,7 @@ $include-html-reveal-classes: false;
 // 26. Side Nav
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-nav-classes: false;
+$include-html-nav-classes: $include-html-classes;
 
 // We use this to control padding.
 // $side-nav-padding: rem-calc(14 0);
@@ -1175,7 +1175,7 @@ $include-html-nav-classes: false;
 // 27. Split Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-button-classes: false;
+$include-html-button-classes: $include-html-classes;
 
 // We use these to control different shared styles for Split Buttons
 // $split-button-function-factor: 10%;
@@ -1214,7 +1214,7 @@ $include-html-button-classes: false;
 // 28. Sub Nav
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-nav-classes: false;
+$include-html-nav-classes: $include-html-classes;
 
 // We use these to control margin and padding
 // $sub-nav-list-margin: rem-calc(-4 0 18);
@@ -1244,7 +1244,7 @@ $include-html-nav-classes: false;
 // 29. Switch
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-form-classes: false;
+$include-html-form-classes: $include-html-classes;
 
 // Controlling border styles and background colors for the switch container
 // $switch-border-color: scale-color($white, $lightness: -20%);
@@ -1315,7 +1315,7 @@ $include-html-form-classes: false;
 // 31. Tabs
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-tabs-classes: false;
+$include-html-tabs-classes: $include-html-classes;
 
 // $tabs-navigation-padding: rem-calc(16);
 // $tabs-navigation-bg-color: $silver  ;
@@ -1334,7 +1334,7 @@ $include-html-tabs-classes: false;
 // 32. Thumbnails
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-media-classes: false;
+$include-html-media-classes: $include-html-classes;
 
 // We use these to control border styles
 // $thumb-border-style: solid;
@@ -1350,7 +1350,7 @@ $include-html-media-classes: false;
 // 33. Tooltips
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-tooltip-classes: false;
+$include-html-tooltip-classes: $include-html-classes;
 
 // $has-tip-border-bottom: dotted 1px $iron;
 // $has-tip-font-weight: $font-weight-bold;
@@ -1377,7 +1377,7 @@ $include-html-tooltip-classes: false;
 // 34. Top Bar
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$include-html-top-bar-classes: false;
+$include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
 // $topbar-bg-color: $oil;

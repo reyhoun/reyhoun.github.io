@@ -17,16 +17,16 @@
 .services {
 	i {
 		font-size: rem-calc(70);
-		color: lighten($body-font-color, 35%);
+		color: $main_primary_color;
 	}
 	p {
 		margin-bottom: rem-calc(15);
 		color: lighten($color-base, 15%);
 	}
 	.read-more {
-		color: lighten($color-base, 9%);
+		color: lighten($color-base, 30%);
 		&:hover {
-			color: $anchor-font-color-hover;
+			color: $anchor-font-color;
 		}
 	}
 }
@@ -92,16 +92,15 @@
 .btn {
 	a {
 		display: inline-block;
-		border: 1px solid lighten($color-base, 35%);
-		padding: rem-calc(25 100);
+		background: $main_primary_color;
+		padding: rem-calc(15 65);
 		border-radius: $global-radius;
 		margin-top: rem-calc(50);
-		font-size: rem-calc(dir-check(22, 25));
-		color: lighten($color-base, 12%);
+		font-size: rem-calc(dir-check(17, 23));
+		color: $white;
 
 		&:hover {
-			border-color: lighten($main_primary_color, 10%);
-			color: $main_primary_color;
+			background: $anchor-font-color-hover;
 		}
 	}
 }

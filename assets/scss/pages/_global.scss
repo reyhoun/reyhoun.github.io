@@ -274,6 +274,39 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
+// Forms
+form {
+	max-width: 60%;
+	.form__text {
+		width: 33.3%;
+		float: $start;
+		padding-#{$end}: rem-calc(15);
+		&.form__subject {
+			padding-#{$end}: 0;
+		}
+	}
+	textarea {
+		height: rem-calc(150);
+	}
+}
+
+// buttons
+input[type="submit"] {
+	background: $main_primary_color;
+	box-shadow: none;
+	color: $white;
+	border: none;
+	border-radius: $global-radius;
+	line-height: 1;
+	padding: rem-calc(13 30);
+	outline: none;
+	-webkit-transition: all 250ms ease-out 0;
+	-moz-transition: all 250ms ease-out 0;
+	transition: all 250ms ease-out 0;
+	&:hover {
+		background: $anchor-font-color-hover;
+	}
+}
 
 // Mobile mode styles
 @include breakpoint(small) {

@@ -6,17 +6,17 @@ title: "Contact Us"
 
 <form action="https://getsimpleform.com/messages?form_api_token=393b1d4d84ec234745ca494c1a770a8a" method="post">
   <input type='hidden' name='redirect_to' value='/blog' />
-  <label>Your Name
-	<input type='text' name='name' required />
-  </label>
-  <label>Your Email
-	<input type='email' name='mail' required />
-  </label>
-  <label>Subject
-	<input type='text' name='subject' />
-  </label>
-  <label>Message
-  <textarea name="message" required></textarea>
-  </label>
+  <p class="form__text">
+	<input type='text' name='name' placeholder="Name *" required />
+  </p>
+  <p class="form__text">
+	<input type='email' name='mail' placeholder="Email *" required />
+  </p>
+  <p class="form__text form__subject">
+	<input type='text' name='subject' placeholder="Subject" />
+  </p>
+  <p class="form__textarea">
+  <textarea name="message" placeholder="Write your message here... *" required></textarea>
+  </p>
   <input type='submit' value='Send' />
 </form>
