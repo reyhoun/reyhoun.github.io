@@ -12,6 +12,10 @@ a {
 
 h1,h2,h3,h4,h5,h6 {
 	letter-spacing: -1px;
+
+	@include if-rtl {
+		word-spacing: rem-calc(2);
+	}
 }
 
 .header__logo,
@@ -181,6 +185,10 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: rem-calc(50);
 	line-height: 1;
 	margin-top: 0;
+
+	@include if-rtl {
+		word-spacing: rem-calc(2);
+	}
 }
 
 // Link Style on content in about and blog pages

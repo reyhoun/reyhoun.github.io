@@ -43,8 +43,13 @@
 	.post-date {
 		font-size: rem-calc(19);
 	}
+
 	.post-meta {
 		font-size: rem-calc(24);
 		margin-bottom: rem-calc(-5);
+	}
+	
+	.post-title {
+		word-spacing: rem-calc(2);
 	}
 }

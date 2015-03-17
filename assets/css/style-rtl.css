@@ -5933,6 +5933,9 @@ blockquote, blockquote p {
   font-size: 1.5rem;
   margin-bottom: -0.3125rem; }
 
+.post-title {
+  word-spacing: 0.125rem; }
+
 .details ul {
   margin: 0;
   list-style-type: none; }
@@ -5973,7 +5976,8 @@ a {
   transition: all 300ms ease-out 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  word-spacing: 0.125rem; }
 
 .header__logo, .footer__logo {
   font-family: 'Expletus Sans';
@@ -6078,7 +6082,8 @@ h1, h2, h3, h4, h5, h6 {
 .container__title {
   margin-bottom: 3.125rem;
   line-height: 1;
-  margin-top: 0; }
+  margin-top: 0;
+  word-spacing: 0.125rem; }
 
 .content--single ul {
   list-style-type: circle;
