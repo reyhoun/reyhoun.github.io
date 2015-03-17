@@ -285,15 +285,23 @@ h1,h2,h3,h4,h5,h6 {
 // Forms
 form {
 	max-width: 60%;
+
 	.form__text {
 		width: 33.3%;
 		float: $start;
 		padding-#{$end}: rem-calc(15);
+
 		&.form__subject {
 			padding-#{$end}: 0;
 		}
+
+		input {
+			border-radius: $global-radius;
+		}
 	}
+
 	textarea {
+		border-radius: $global-radius;
 		height: rem-calc(150);
 	}
 }
