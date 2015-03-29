@@ -416,6 +416,10 @@ table {
 		font-size: rem-calc(40);
 	}
 
+	.title__sub {
+		font-size: rem-calc(25);
+	}
+
 	.footer {
 		padding: rem-calc(80 0);
 	}
@@ -431,5 +435,20 @@ table {
 		float: none;
 		text-align: center;
 		display: inline-block;
+	}
+
+	// Forms
+	form {
+		max-width: 100%;
+
+		.form__text {
+			width: 100%;
+			padding-#{$end}: rem-calc(0);
+			margin-bottom: rem-calc(5);
+		}
+
+		textarea {
+			height: rem-calc(100);
+		}
 	}
 }

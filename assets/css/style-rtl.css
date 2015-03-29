@@ -4485,6 +4485,8 @@ table tbody tr {
     margin-bottom: 2.5rem; }
   .title__main {
     font-size: 2.5rem; }
+  .title__sub {
+    font-size: 1.5625rem; }
   .footer {
     padding: 5rem 0; }
   .footer__logo {
@@ -4492,7 +4494,15 @@ table tbody tr {
   .footer__logo, .footer__social, .footer__nav, .footer__copyright {
     float: none;
     text-align: center;
-    display: inline-block; } }
+    display: inline-block; }
+  form {
+    max-width: 100%; }
+    form .form__text {
+      width: 100%;
+      padding-left: 0;
+      margin-bottom: 0.3125rem; }
+    form textarea {
+      height: 6.25rem; } }
 
 .content--single img {
   margin-top: 0.9375rem; }
