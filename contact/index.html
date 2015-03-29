@@ -1,8 +1,14 @@
 ---
 layout: default
 title: "Contact Us"
+title_sub:  "Something to Say?"
 ---
-<h1 class="container__title">{{ page.title }}</h1>
+<div class="title">
+    <h1 class="title__main">{{ page.title }}</h1>
+    {% if page.title_sub %}
+      <h2 class="title__sub subheader">{{ page.title_sub }}</h2>
+    {% endif %}
+</div>
 
 <form action="https://getsimpleform.com/messages?form_api_token=393b1d4d84ec234745ca494c1a770a8a" method="post">
   <input type='hidden' name='redirect_to' value='/blog' />

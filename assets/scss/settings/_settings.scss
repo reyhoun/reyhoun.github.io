@@ -238,10 +238,10 @@ $h6-font-size: rem-calc(dir-check(25, 22));
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
-// $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
+$subheader-font-color: scale-color($header-font-color, $lightness: 20%);
 // $subheader-font-weight: $font-weight-normal;
 // $subheader-top-margin: .2rem;
-// $subheader-bottom-margin: .5rem;
+$subheader-bottom-margin: 0;
 
 // A general <small> styling
 // $small-font-size: 60%;

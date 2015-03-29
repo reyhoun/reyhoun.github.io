@@ -181,7 +181,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin: rem-calc(120 0 180);
 }
 
-.container__title {
+.title {
 	margin-bottom: rem-calc(50);
 	line-height: 1;
 	margin-top: 0;
@@ -280,6 +280,10 @@ h1,h2,h3,h4,h5,h6 {
 	li {
 		text-transform: uppercase;
 	}
+}
+
+.title__sub {
+	font-size: rem-calc(30);
 }
 
 // Forms
@@ -404,9 +408,12 @@ table {
 		margin: rem-calc(0 0 120);
 	}
 
-	.container__title {
-		font-size: rem-calc(40);
+	.title {
 		margin-bottom: rem-calc(40);
+	}
+
+	.title__main {
+		font-size: rem-calc(40);
 	}
 
 	.footer {

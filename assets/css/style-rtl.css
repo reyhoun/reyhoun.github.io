@@ -2229,10 +2229,10 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #a1a1a1;
+  color: #8b8b8b;
   font-weight: normal;
   margin-top: 0.2rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0; }
 
 hr {
   border: solid #DDDDDD;
@@ -4341,7 +4341,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   margin: 7.5rem 0 11.25rem; }
 
-.container__title {
+.title {
   margin-bottom: 3.125rem;
   line-height: 1;
   margin-top: 0;
@@ -4406,6 +4406,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__nav li, .footer__nav li {
   text-transform: uppercase; }
+
+.title__sub {
+  font-size: 1.875rem; }
 
 form {
   max-width: 60%; }
@@ -4478,9 +4481,10 @@ table tbody tr {
     margin-bottom: 0; }
   .container {
     margin: 0 0 7.5rem; }
-  .container__title {
-    font-size: 2.5rem;
+  .title {
     margin-bottom: 2.5rem; }
+  .title__main {
+    font-size: 2.5rem; }
   .footer {
     padding: 5rem 0; }
   .footer__logo {
