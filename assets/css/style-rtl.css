@@ -4098,21 +4098,14 @@ blockquote, blockquote p {
 
 .services i {
   font-size: 4.375rem;
-  color: #A72970; }
+  color: #d9d9d9; }
 .services p {
   margin-bottom: 0.9375rem;
   color: #8c8c8c; }
-.services .read-more {
-  color: #b3b3b3; }
-  .services .read-more:hover {
-    color: #A72970; }
 
 .read-more {
   font-size: 1.3125rem;
-  font-weight: 400;
-  color: #7d7d7d; }
-  .read-more:hover {
-    color: #8e235f; }
+  font-weight: 400; }
 
 .page--portfolio .container {
   margin-bottom: 12.5rem; }
@@ -4296,7 +4289,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     width: 100%;
     height: 2px;
-    background: #A72970;
+    background: #d34a97;
     content: '';
     opacity: 0;
     -webkit-transition: all 300ms ease-out 0;
@@ -4323,7 +4316,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(8px); }
 .cl-effect-3 li.active a::after {
   bottom: 0;
-  background: #932462;
+  background: #bb2e7e;
   opacity: 1;
   transition: none;
   transform: none;

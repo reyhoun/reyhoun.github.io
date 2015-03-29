@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 				#{$start}: 0;
 				width: 100%;
 				height: 2px;
-				background: $main_primary_color;
+				background: lighten($main_primary_color, 15%);
 				content: '';
 				opacity: 0;
 				@include transition(all, 300ms);
@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,h6 {
 			a {
 				&::after {
 					bottom: rem-calc(0);
-					background: darken($main_primary_color, 5%);
+					background: lighten($main_primary_color, 5%);
 					opacity: 1;
 					transition: none;
 					transform: none;
