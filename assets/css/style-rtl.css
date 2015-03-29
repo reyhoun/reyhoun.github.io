@@ -4121,6 +4121,9 @@ blockquote, blockquote p {
   .item:hover .layer, .item:hover .item__title {
     opacity: 1; }
 
+.item__hover {
+  display: block; }
+
 .layer, .item__title {
   position: absolute;
   width: 100%;
