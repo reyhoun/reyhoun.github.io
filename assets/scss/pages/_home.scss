@@ -84,22 +84,6 @@
 	@include transition(all, 400ms, ease);
 }
 
-.btn {
-	a {
-		display: inline-block;
-		background: $main_primary_color;
-		padding: rem-calc(15 65);
-		border-radius: $global-radius;
-		margin-top: rem-calc(50);
-		font-size: rem-calc(dir-check(17, 23));
-		color: $white;
-
-		&:hover {
-			background: $anchor-font-color-hover;
-		}
-	}
-}
-
 @include breakpoint(small) {
 	.layer,
 	.item__title {
