@@ -4088,10 +4088,12 @@ blockquote, blockquote p {
 .content__about {
   margin-bottom: 5.3125rem; }
   .content__about p {
-    font-size: 2.5625rem;
+    font-size: 2.875rem;
     color: #999999;
     margin-bottom: 0.9375rem;
     line-height: 1.4; }
+  .content__about .read-more {
+    font-size: 1.375rem; }
 
 .content__about {
   margin-bottom: 11.25rem; }

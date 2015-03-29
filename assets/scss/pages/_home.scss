@@ -1,10 +1,14 @@
 .content__about {
 	margin-bottom: rem-calc(85);
 	p {
-		font-size: rem-calc(dir-check(35, 35 + $rsc));
+		font-size: rem-calc(dir-check(40, 40 + $rsc));
 		color: lighten($color-base, 20%);
 		margin-bottom: rem-calc(15);
 		line-height: 1.4;
+	}
+
+	.read-more {
+		font-size: rem-calc(dir-check(20, 20 + $rsc - 4));
 	}
 }
 
@@ -17,27 +21,18 @@
 .services {
 	i {
 		font-size: rem-calc(70);
-		color: $main_primary_color;
+		color: lighten($color-base, 45%);
 	}
+
 	p {
 		margin-bottom: rem-calc(15);
 		color: lighten($color-base, 15%);
-	}
-	.read-more {
-		color: lighten($color-base, 30%);
-		&:hover {
-			color: $anchor-font-color;
-		}
 	}
 }
 
 .read-more {
 	font-size: rem-calc(dir-check(15, 15 + $rsc));
 	font-weight: 400;
-	color: lighten($color-base, 9%);
-	&:hover {
-		color: $anchor-font-color-hover;
-	}
 }
 
 .page--portfolio {
