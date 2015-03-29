@@ -2,7 +2,12 @@
 layout: default
 ---
 {% if page.show_title == null %}
-<h1 class="container__title">{{ page.title }}</h1>
+<div class="title">
+    <h1 class="title__main">{{ page.title }}</h1>
+	{% if page.title_sub %}
+		<h2 class="title__sub">{{ page.title_sub }}</h2>
+	{% endif %}
+</div>
 {% endif %}
 
 <div class="content content__portfolio">
