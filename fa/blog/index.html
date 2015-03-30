@@ -2,7 +2,12 @@
 layout: default-fa
 title:  "وبلاگ"
 ---
-<h1 class="container__title">{{ page.title }}</h1>
+<div class="title">
+    <h1 class="title__main">{{ page.title }}</h1>
+    {% if page.title_sub %}
+	    <h2 class="title__sub subheader">{{ page.title_sub }}</h2>
+    {% endif %}
+</div>
 {% for post in site.categories.fa %}
 <div class="content content__blog">
 	<div class="date dir-ltr text-right">{{ post.date | date: "%-d %b %Y" }}</div>
