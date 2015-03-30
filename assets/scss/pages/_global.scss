@@ -386,7 +386,12 @@ table {
 	.header__nav {
 		display: inline-block;
 		li {
-			margin-#{$start}: rem-calc(25);
+			margin-#{$start}: rem-calc(20);
+			@include if-rtl {
+				a {
+					font-size: rem-calc(23);
+				}
+			}
 		}
 	}
 
@@ -409,11 +414,7 @@ table {
 	}
 
 	.title {
-		margin-bottom: rem-calc(40);
-	}
-
-	.title__main {
-		font-size: rem-calc(40);
+		margin-bottom: rem-calc(dir-check(25, 25 + $rsc));
 	}
 
 	.title__sub {
@@ -449,6 +450,13 @@ table {
 
 		textarea {
 			height: rem-calc(100);
+		}
+	}
+
+	.btn {
+		a {
+			display: block;
+			padding: rem-calc(15 50);
 		}
 	}
 }

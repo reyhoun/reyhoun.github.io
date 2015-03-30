@@ -53,3 +53,13 @@
 		word-spacing: rem-calc(2);
 	}
 }
+
+@include breakpoint(small) {
+	.content__title {
+		font-size: rem-calc(24);
+	}
+
+	.date {
+		font-size: rem-calc(16);
+	}
+}

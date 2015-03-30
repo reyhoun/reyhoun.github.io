@@ -95,22 +95,23 @@
 	}
 	
 	.content__about {
+		margin-bottom: rem-calc(65);
+
 		p {
-			font-size: rem-calc(30);
+			font-size: rem-calc(dir-check(30, 30 + $rsc));
 			line-height: 1.5;
+		}
+
+		.read-more {
+			font-size: rem-calc(dir-check(16, 16 + $rsc));
 		}
 	}
 
 	.services__box {
 		margin-bottom: rem-calc(75);
+		
 		&.last {
 			margin-bottom: 0;
-		}
-	}
-
-	.btn {
-		a {
-			display: block;
 		}
 	}
 }

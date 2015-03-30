@@ -229,12 +229,12 @@ $h5-font-size: rem-calc(dir-check(30, 26));
 $h6-font-size: rem-calc(dir-check(25, 22));
 
 // We use these to control header size reduction on small screens
-// $h1-font-reduction: rem-calc(10) !default;
-// $h2-font-reduction: rem-calc(10) !default;
-// $h3-font-reduction: rem-calc(5) !default;
-// $h4-font-reduction: rem-calc(5) !default;
-// $h5-font-reduction: 0 !default;
-// $h6-font-reduction: 0 !default;
+$h1-font-reduction: rem-calc(15) !default;
+$h2-font-reduction: rem-calc(10) !default;
+$h3-font-reduction: rem-calc(10) !default;
+$h4-font-reduction: rem-calc(7) !default;
+$h5-font-reduction: rem-calc(5) !default;
+$h6-font-reduction: rem-calc(5) !default;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;

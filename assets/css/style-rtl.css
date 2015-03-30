@@ -2210,22 +2210,22 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.5rem; }
+  font-size: 2.1875rem; }
 
 h2 {
   font-size: 2.0625rem; }
 
 h3 {
-  font-size: 1.875rem; }
-
-h4 {
   font-size: 1.5625rem; }
 
+h4 {
+  font-size: 1.4375rem; }
+
 h5 {
-  font-size: 1.625rem; }
+  font-size: 1.3125rem; }
 
 h6 {
-  font-size: 1.375rem; }
+  font-size: 1.0625rem; }
 
 .subheader {
   line-height: 1.4;
@@ -4149,15 +4149,17 @@ blockquote, blockquote p {
 @media only screen and (max-width: 40em) {
   .layer, .item__title {
     display: none; }
-  .content__about p {
-    font-size: 1.875rem;
-    line-height: 1.5; }
+  .content__about {
+    margin-bottom: 4.0625rem; }
+    .content__about p {
+      font-size: 2.25rem;
+      line-height: 1.5; }
+    .content__about .read-more {
+      font-size: 1.375rem; }
   .services__box {
     margin-bottom: 4.6875rem; }
     .services__box.last {
-      margin-bottom: 0; }
-  .btn a {
-    display: block; } }
+      margin-bottom: 0; } }
 
 .content__blog {
   border-bottom: 1px solid #f2f2f2;
@@ -4197,6 +4199,12 @@ blockquote, blockquote p {
 
 .post-title {
   word-spacing: 0.125rem; }
+
+@media only screen and (max-width: 40em) {
+  .content__title {
+    font-size: 1.5rem; }
+  .date {
+    font-size: 1rem; } }
 
 .details ul {
   margin: 0;
@@ -4472,7 +4480,9 @@ table tbody tr {
   .header__nav {
     display: inline-block; }
     .header__nav li {
-      margin-right: 1.5625rem; }
+      margin-right: 1.25rem; }
+      .header__nav li a {
+        font-size: 1.4375rem; }
   .inline-list.header__nav {
     margin-right: 0; }
   .footer__social {
@@ -4482,9 +4492,7 @@ table tbody tr {
   .container {
     margin: 0 0 7.5rem; }
   .title {
-    margin-bottom: 2.5rem; }
-  .title__main {
-    font-size: 2.5rem; }
+    margin-bottom: 1.9375rem; }
   .title__sub {
     font-size: 1.5625rem; }
   .footer {
@@ -4502,7 +4510,10 @@ table tbody tr {
       padding-left: 0;
       margin-bottom: 0.3125rem; }
     form textarea {
-      height: 6.25rem; } }
+      height: 6.25rem; }
+  .btn a {
+    display: block;
+    padding: 0.9375rem 3.125rem; } }
 
 .content--single img {
   margin-top: 0.9375rem; }
