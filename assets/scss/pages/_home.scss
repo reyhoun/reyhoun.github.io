@@ -97,6 +97,10 @@
 	.content__about {
 		margin-bottom: rem-calc(65);
 
+		@include if-rtl {
+			margin-bottom: rem-calc(100);
+		}
+
 		p {
 			font-size: rem-calc(dir-check(30, 30 + $rsc));
 			line-height: 1.5;

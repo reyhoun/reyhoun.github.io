@@ -4150,7 +4150,8 @@ blockquote, blockquote p {
   .layer, .item__title {
     display: none; }
   .content__about {
-    margin-bottom: 4.0625rem; }
+    margin-bottom: 4.0625rem;
+    margin-bottom: 6.25rem; }
     .content__about p {
       font-size: 2.25rem;
       line-height: 1.5; }
