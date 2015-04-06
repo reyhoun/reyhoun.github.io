@@ -90,6 +90,10 @@ h1,h2,h3,h4,h5,h6 {
 				-webkit-transform: translateY(10px);
 				-moz-transform: translateY(10px);
 				transform: translateY(10px);
+				
+				@include breakpoint(small) {
+					top: rem-calc(20);
+				}
 			}
 
 			&:hover,
@@ -102,7 +106,6 @@ h1,h2,h3,h4,h5,h6 {
 				}
 			}
 
-
 			@include if-rtl {
 				padding-bottom: rem-calc(10);
 
@@ -111,15 +114,18 @@ h1,h2,h3,h4,h5,h6 {
 					-webkit-transform: translateY(13px);
 					-moz-transform: translateY(13px);
 					transform: translateY(13px);
+
+					@include breakpoint(small) {
+						top: rem-calc(30);
+					}
 				}
+
 				&:hover,
 				&:focus {
 					&:after {
-						@include if-rtl {
-							-webkit-transform: translateY(8px);
-							-moz-transform: translateY(8px);
-							transform: translateY(8px);
-						}
+						-webkit-transform: translateY(8px);
+						-moz-transform: translateY(8px);
+						transform: translateY(8px);
 					}
 				}
 			}

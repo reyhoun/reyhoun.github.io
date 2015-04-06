@@ -4300,6 +4300,9 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
     transform: translateY(10px); }
+    @media only screen and (max-width: 40em) {
+      .cl-effect-3 li a::after {
+        top: 1.25rem; } }
   .cl-effect-3 li a:hover:after, .cl-effect-3 li a:focus:after {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -4312,6 +4315,9 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: translateY(13px);
     -moz-transform: translateY(13px);
     transform: translateY(13px); }
+    @media only screen and (max-width: 40em) {
+      .cl-effect-3 li a:after {
+        top: 1.875rem; } }
   .cl-effect-3 li a:hover:after, .cl-effect-3 li a:focus:after {
     -webkit-transform: translateY(8px);
     -moz-transform: translateY(8px);
