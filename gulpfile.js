@@ -100,7 +100,7 @@ gulp.task('js', function() {
  */
 gulp.task('watch', function () {
     gulp.watch('./assets/scss/**/*.scss', ['sass', 'jekyll-rebuild']);
-    gulp.watch(['index.html', '_layouts/*.html', '_posts/*', 'blog/index.html', 'contact/*.html', 'fa/**/*.md', 'fa/**/*.html', 'portfolio/*.md'], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', 'blog/**/*.*', 'fa/**/*.md', 'fa/**/*.html', 'portfolio/*.md'], ['jekyll-rebuild']);
     gulp.watch('assets/js/app.js', ['js', 'jekyll-rebuild']);
 });
 
