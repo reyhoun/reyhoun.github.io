@@ -1,6 +1,6 @@
 {
   "name": "reyhoun-website",
-  "version": "2.0.0-alpha.1",
+  "version": "2.1.0",
   "author": "Reyhoun Team <info@reyhoun.com>",
   "homepage": "http://reyhoun.com",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/reyhoun/reyhoun.github.io.git"
   },
   "bugs": {
-    "url": "https://trello.com/b/T6MRaYD9/sadeh"
+    "url": "https://trello.com/b/ESO7gGSL/reyhoun-website"
   },
   "licenses": [
     {
