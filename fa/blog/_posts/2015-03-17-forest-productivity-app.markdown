@@ -3,7 +3,6 @@ layout: post-fa
 title:  "با بهره وری، جنگلی سرسبز بسازید"
 date:   2015-03-17 13:30:56
 author: نوید کاشانی
-categories: fa blog
 ---
 <p class='text-center' markdown='1'>
 ![](/assets/img/blog/2015/03/forest-app.png)

@@ -3,7 +3,6 @@ layout: post-fa
 title:  "هر سفیدی سفید نیست"
 date:   2015-03-10 13:30:56
 author: نوید کاشانی
-categories: fa blog
 ---
 <p class='text-center' markdown='1'>
 ![رنگ ها در گل نرگس](/assets/img/blog/2015/03/narcissus-plant-palette.jpg)

@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "About us"
+permalink: /about/
 ---
 ###Creative focus on simplicity and things that appear on screens.
 

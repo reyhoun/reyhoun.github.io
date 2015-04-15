@@ -3,7 +3,6 @@ layout: post
 title:  "Hi Everyone"
 date:   2014-12-01 10:25:56
 author: Navid Kashani
-categories: blog
 ---
 I’m Navid, the Founder of Reyhoun*. Last Year when I decided make the world a better place, started talking with Parhum one of my friend, Reyhoun burn after couple of months.
 
