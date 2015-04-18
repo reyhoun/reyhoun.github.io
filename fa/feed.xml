@@ -6,9 +6,46 @@
 </description>
     <link>http://reyhoun.com/fa/</link>
     <atom:link href="http://reyhoun.com/fa/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Apr 2015 16:03:23 +0430</pubDate>
-    <lastBuildDate>Wed, 15 Apr 2015 16:03:23 +0430</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2015 12:32:47 +0430</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2015 12:32:47 +0430</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+	
+      <item>
+        <title>هفته نامه طراحی وب فارسی</title>
+        <description>&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/2015/04/ui-toread-logo.png&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;یکی از اهداف ما در ریحون کمک به توسعه وب هست و در این راستا پروژه هایی را به صورت اپن سورس در &lt;a href=&quot;https://github.com/reyhoun&quot;&gt;صفحه گیت هابمان&lt;/a&gt; منتشر کرده ایم.&lt;/p&gt;
+
+&lt;p&gt;امروز نیز مفتخر هستیم اعلام کنیم در جدیدترین پروژه ریحون، “&lt;a href=&quot;http://ui.toread.ir/&quot;&gt;هفته نامه طراحی وب فارسی&lt;/a&gt;” برای انتشار بهترین لینک های فارسی در حوزه طراحی وب شکل گرفت که &lt;a href=&quot;http://ui.toread.ir/&quot;&gt;در این آدرس&lt;/a&gt; می توانید آن را مشاهده کنید.&lt;/p&gt;
+
+&lt;p&gt;برای این کار ما هر هفته بهترین لینک های این حوزه را جمع آوری کرده و در آخر هفته (پنج شنبه) لیست آن ها را منتشر می کنیم (&lt;a href=&quot;http://ui.toread.ir/issue/001/&quot;&gt;بطور نمونه هفته اول را مشاهده کنید&lt;/a&gt;). همچنین برای دسترسی ساده تر آن ها علاوه بر نمایش بر روی سایت بوسیله RSS ، Email و البته &lt;a href=&quot;https://twitter.com/uitoread&quot;&gt;توییتر&lt;/a&gt; نیز ارسال می کنیم.&lt;/p&gt;
+
+&lt;p&gt;برای ایجاد و توسعه این کار از سرویس ها و پروژه های زیر استفاده شده است:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;: به منظور توسعه به شکل اپن سورس با Git، مدیریت تسک ها و میزبانی سایت&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;: سایت ساز و مدیریت محتوا&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton&lt;/a&gt;: به عنوان فرم ورک CSS&lt;/li&gt;
+  &lt;li&gt;فونت &lt;a href=&quot;https://www.google.com/fonts/specimen/Raleway&quot;&gt;Raleway&lt;/a&gt; برای متون انگلیسی، یکان و میترا برای متون فارسی (&lt;a href=&quot;http://font-store.ir/&quot;&gt;نسخه اصلاح شده توسط صالح سوزنچی&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mailchimp.com/&quot;&gt;MailChimp&lt;/a&gt;: برای مدیریت و ارسال ایمیل&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;برای دسترسی به سورس کار به &lt;a href=&quot;https://github.com/reyhoun/ui.toread&quot;&gt;صفحه این پروژه در Github&lt;/a&gt; مراجعه کنید.&lt;/p&gt;
+
+&lt;p&gt;در همین ارتباط بخوانید:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ui.toread.ir/contributing/&quot;&gt;پیشنهاد لینک برای هفته نامه&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ui.toread.ir/about/&quot;&gt;درباره هفته نامه&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 18:00:56 +0430</pubDate>
+        <link>http://reyhoun.com/fa/blog/ui-toread</link>
+        <guid isPermaLink="true">http://reyhoun.com/fa/blog/ui-toread</guid>
+        
+      </item>
 	
       <item>
         <title>با بهره وری، جنگلی سرسبز بسازید</title>
