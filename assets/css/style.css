@@ -4115,36 +4115,50 @@ blockquote, blockquote p {
 
 .item {
   margin-top: 0.9375rem; }
-  .item:hover .layer, .item:hover .item__title {
+  .item a {
+    display: block; }
+  .item .item__hover {
+    display: block; }
+  .item .layer, .item .item__info {
+    position: absolute;
+    opacity: 0; }
+  .item .layer {
+    background: rgba(247, 247, 247, 0.95);
+    width: 100%;
+    height: 100%;
+    top: 0; }
+  .item .layer, .item .item__info {
+    -webkit-transition: opacity 350ms ease-out 0ms;
+    -moz-transition: opacity 350ms ease-out 0ms;
+    transition: opacity 350ms ease-out 0ms; }
+  .item .item__info {
+    color: #565656;
+    top: 2.5rem;
+    left: 2.5rem;
+    right: 2.5rem; }
+  .item .item__titles {
+    display: block;
+    margin-bottom: 0.625rem;
+    font-size: 1.875rem; }
+  .item .item__title {
+    font-weight: bold;
+    font-size: 3.125rem;
+    display: block; }
+  .item .item__subtitle {
+    display: block;
+    font-size: 1.25rem;
+    color: #707070;
+    margin-bottom: 1.5625rem;
+    margin-top: -0.3125rem; }
+  .item .item__desc {
+    font-size: 1.0625rem;
+    display: block;
+    line-height: 1.5; }
+  .item:hover .layer, .item:hover .item__info {
     opacity: 1; }
 
-.item__hover {
-  display: block; }
-
-.layer, .item__title {
-  position: absolute;
-  width: 100%;
-  opacity: 0; }
-
-.layer {
-  height: 100%;
-  background: rgba(0, 0, 0, 0.9);
-  top: 0; }
-
-.item__title {
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.25rem;
-  top: 1.25rem;
-  left: 1.25rem; }
-
-.layer, .item__title {
-  -webkit-transition: all 400ms ease 0;
-  -moz-transition: all 400ms ease 0;
-  transition: all 400ms ease 0; }
-
 @media only screen and (max-width: 40em) {
-  .layer, .item__title {
+  .layer, .item__info {
     display: none; }
   .content__about {
     margin-bottom: 4.0625rem; }
@@ -4228,9 +4242,9 @@ body {
   direction: ltr; }
 
 a {
-  -webkit-transition: all 300ms ease-out 0;
-  -moz-transition: all 300ms ease-out 0;
-  transition: all 300ms ease-out 0; }
+  -webkit-transition: all 300ms ease-out 0ms;
+  -moz-transition: all 300ms ease-out 0ms;
+  transition: all 300ms ease-out 0ms; }
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px; }
@@ -4278,9 +4292,9 @@ h1, h2, h3, h4, h5, h6 {
     background: #d34a97;
     content: '';
     opacity: 0;
-    -webkit-transition: all 300ms ease-out 0;
-    -moz-transition: all 300ms ease-out 0;
-    transition: all 300ms ease-out 0;
+    -webkit-transition: all 300ms ease-out 0ms;
+    -moz-transition: all 300ms ease-out 0ms;
+    transition: all 300ms ease-out 0ms;
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
     transform: translateY(10px); }
