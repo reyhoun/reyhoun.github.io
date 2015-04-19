@@ -2023,33 +2023,33 @@ table {
   table-layout: auto; }
   table caption {
     background: transparent;
-    color: #222222;
+    color: #666;
     font-size: 1rem;
     font-weight: bold; }
   table thead {
     background: #FFFFFF; }
     table thead tr th, table thead tr td {
       padding: 0.5rem 0.625rem 0.625rem;
-      font-size: 0.875rem;
+      font-size: 1.375rem;
       font-weight: bold;
-      color: #222222; }
+      color: #666; }
   table tfoot {
     background: #FFFFFF; }
     table tfoot tr th, table tfoot tr td {
       padding: 0.5rem 0.625rem 0.625rem;
-      font-size: 0.875rem;
+      font-size: 1.375rem;
       font-weight: bold;
-      color: #222222; }
+      color: #666; }
   table tr th, table tr td {
     padding: 0.5625rem 0.9375rem;
-    font-size: 0.875rem;
-    color: #222222;
+    font-size: 1.375rem;
+    color: #666;
     text-align: right; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
-    background: #FFFFFF; }
+    background: #fdfdfd; }
   table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, table tbody tr td, table tr td {
     display: table-cell;
-    line-height: 1.125rem; }
+    line-height: 1.5; }
 
 .text-left {
   text-align: left !important; }
@@ -4481,12 +4481,17 @@ input[type="submit"] {
     background: #8e235f;
     color: #fff; }
 
-table thead tr {
-  border-bottom: 2px solid #f2f2f2; }
-table tbody tr {
-  border-bottom: 1px solid #f2f2f2; }
-  table tbody tr:last-of-type {
-    border-bottom: none; }
+table {
+  width: 100%; }
+  table caption {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem; }
+  table thead tr {
+    border-bottom: 2px solid #f2f2f2; }
+  table tbody tr {
+    border-bottom: 1px solid #f2f2f2; }
+    table tbody tr:last-of-type {
+      border-bottom: none; }
 
 @media only screen and (max-width: 40em) {
   .header {
