@@ -11,6 +11,6 @@ title:  "وبلاگ"
 {% for post in site.categories.fa %}
 <div class="content content__blog">
 	<div class="date dir-ltr text-right">{{ post.date | date: "%-d %b %Y" }}</div>
-	<a class="content__title" href="{{ post.url }}">{{ post.title }}</a>
+	<a class="content__title" href="{{ post.url }}/">{{ post.title }}</a>
 </div>
 {% endfor %}
