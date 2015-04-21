@@ -31,9 +31,9 @@ author: نوید کاشانی
   <thead>
     <tr>
       <th>عنوان</th>
-      <th width="200">زمان شروع</th>
-      <th width="200">مدت زمان</th>
-      <th width="250">ارائه دهنده</th>
+      <th>زمان شروع</th>
+      <th>مدت زمان</th>
+      <th>ارائه دهنده</th>
     </tr>
   </thead>
   <tbody>
@@ -56,7 +56,7 @@ author: نوید کاشانی
       <td>-</td>
     </tr>
     <tr>
-      <td>آماده سازی محتوا برای ارائه</td>
+      <td><a href="/fa/blog/good-content-presentation/">آماده سازی محتوا برای ارائه</a></td>
       <td>8:55</td>
       <td>20 دقیقه</td>
       <td>نوید کاشانی</td>
