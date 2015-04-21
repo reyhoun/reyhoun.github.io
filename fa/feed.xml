@@ -6,9 +6,115 @@
 </description>
     <link>http://reyhoun.com/fa/</link>
     <atom:link href="http://reyhoun.com/fa/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Apr 2015 17:20:49 +0430</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2015 17:20:49 +0430</lastBuildDate>
+    <pubDate>Tue, 21 Apr 2015 12:52:33 +0430</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2015 12:52:33 +0430</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+	
+      <item>
+        <title>دومین دورهمی آموزشی ریحون</title>
+        <description>&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/2015/04/reyhoun-sketch.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;در تاریخ 27 فروردین دومین دورهمی ریحون برگزار شد که در مجموع 4 ارائه انجام شد:&lt;/p&gt;
+
+&lt;h5 id=&quot;css3-transition-properties---basic&quot;&gt;CSS3 Transition Properties - Basic&lt;/h5&gt;
+&lt;p&gt;شادی در مورد انیمیشن ها در CSS3 به خصوص دستور Transition و نحوه کارکرد آن توضیحاتی رو داد و پرسش و پاسخ خوبی هم در این رابطه انجام شد.&lt;/p&gt;
+
+&lt;h5 id=&quot;section&quot;&gt;آماده سازی محتوا برای ارائه&lt;/h5&gt;
+&lt;p&gt;در هفته قبل همونطور که قولش رو داده بودیم ارائه جداگانه ای برای آماده سازی محتوا انجام شد. در این ارائه چگونگی آماده سازی یک محتوای خوب برای یک ارائه خوب مورد بحث قرار گرفت.&lt;/p&gt;
+
+&lt;p&gt;مطلب این ارائه را &lt;a href=&quot;/fa/blog/good-content-presentation/&quot;&gt;در این آدرس مشاهده کنید&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;learning-to-design&quot;&gt;Learning to Design&lt;/h5&gt;
+&lt;p&gt;یک سوال مهم وجود داره این که دیزاین یعنی چی و چطور میشه آن را یاد گرفت؟ پرهام در مورد اینکه چطور باید ببینیم توضیحاتی داد و تجربیات خودش رو هم عنوان کرد. در همین رابطه Anaïs Nin می گه: ما چیزها را آنطور که هستند نمی‌بینیم، بلکه آنطور که خودمان هستیم می‌بینیم.&lt;/p&gt;
+
+&lt;p&gt;مطلب این ارائه را &lt;a href=&quot;/fa/blog/learning-to-design/&quot;&gt;در این آدرس مشاهده کنید&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;section-1&quot;&gt;معرفی هفته نامه طراحی وب فارسی&lt;/h5&gt;
+&lt;p&gt;در آخر، &lt;a href=&quot;http://ui.toread.ir/&quot;&gt;هفته نامه طراحی وب فارسی&lt;/a&gt; معرفی و نحوه مشارکت در آن توضیح داده شد. برای آشنایی بیشتر با این پروژه &lt;a href=&quot;/fa/blog/ui-toread/&quot;&gt;این مطلب را مطالعه کنید&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;دورهمی بعدی&lt;/h3&gt;
+&lt;p&gt;طبق برنامه در روز پنج شنبه همین هفته دورهمی بعدی نیز برگزار می شود که در ادامه می توانید اطلاعات مربوط به آن را مشاهده کنید.&lt;/p&gt;
+
+&lt;p&gt;مشخصات زمانی:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;تاریخ برگزاری: 3 اردیبهشت 94&lt;/li&gt;
+  &lt;li&gt;زمان شروع: 8:00 صبح&lt;/li&gt;
+  &lt;li&gt;زمان پایان: 10:30 صبح&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;caption&gt;برنامه برگزاری&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;عنوان&lt;/th&gt;
+      &lt;th width=&quot;200&quot;&gt;زمان شروع&lt;/th&gt;
+      &lt;th width=&quot;200&quot;&gt;مدت زمان&lt;/th&gt;
+      &lt;th width=&quot;250&quot;&gt;ارائه دهنده&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;شروع مراسم&lt;/td&gt;
+      &lt;td&gt;8:00&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Impress your audience with impress.js&lt;/td&gt;
+      &lt;td&gt;8:15&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;پرهام خوشبخت&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;استراحت و پذیرایی&lt;/td&gt;
+      &lt;td&gt;8:35&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ارائه در Behance&lt;/td&gt;
+      &lt;td&gt;8:50&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;محمد شاه حسینی&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;استراحت و پذیرایی&lt;/td&gt;
+      &lt;td&gt;9:10&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;آشنایی با Sass&lt;/td&gt;
+      &lt;td&gt;9:25&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;ستاره حاجی باقری&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;استراحت و پذیرایی&lt;/td&gt;
+      &lt;td&gt;9:45&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;آشنایی با Jekyll&lt;/td&gt;
+      &lt;td&gt;10:00&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;نوید کاشانی&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;زمان مشخص شده شامل بخش پرسش و پاسخ نیز می باشد.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 21 Apr 2015 18:00:56 +0430</pubDate>
+        <link>http://reyhoun.com/fa/blog/reyhoun-meetup-2</link>
+        <guid isPermaLink="true">http://reyhoun.com/fa/blog/reyhoun-meetup-2</guid>
+        
+      </item>
 	
       <item>
         <title>محتوای خوب برای ارائه خوب</title>
@@ -16,7 +122,7 @@
 &lt;img src=&quot;/assets/img/blog/2015/04/content.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;هفته پس در مورد اینکه &lt;a href=&quot;/fa/blog/good-presentation/&quot;&gt;چطور یک ارائه خوب می توان داشت&lt;/a&gt; نوشتم و در این هفته قصد داریم در مورد آماده سازی محتوای مناسب برای ارائه صحبت کنیم.&lt;/p&gt;
+&lt;p&gt;هفته گذشته در مورد اینکه &lt;a href=&quot;/fa/blog/good-presentation/&quot;&gt;چطور یک ارائه خوب می توان داشت&lt;/a&gt; نوشتم و در این هفته قصد داریم در مورد آماده سازی محتوای مناسب برای ارائه صحبت کنیم.&lt;/p&gt;
 
 &lt;p&gt;توجه داشته باشید که تمرکز این ارائه برای ارائه هاییست که در ریحون آماده می شود و نمی توان آن را کلی دانست. این را هم در نظر داشته باشید که هر ارائه و موضوع دارای شرایط مخصوص به خودش هست اما مطالعه این مطالب می تواند به شما کمک کند تا محتوای بهتری را برای ارائه خود تهیه کنید.&lt;/p&gt;
 
@@ -354,9 +460,9 @@
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;عنوان&lt;/th&gt;
-      &lt;th width=&quot;200&quot;&gt;زمان شروع&lt;/th&gt;
-      &lt;th width=&quot;200&quot;&gt;مدت زمان&lt;/th&gt;
-      &lt;th width=&quot;250&quot;&gt;ارائه دهنده&lt;/th&gt;
+      &lt;th&gt;زمان شروع&lt;/th&gt;
+      &lt;th&gt;مدت زمان&lt;/th&gt;
+      &lt;th&gt;ارائه دهنده&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -379,7 +485,7 @@
       &lt;td&gt;-&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;آماده سازی محتوا برای ارائه&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/fa/blog/good-content-presentation/&quot;&gt;آماده سازی محتوا برای ارائه&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;8:55&lt;/td&gt;
       &lt;td&gt;20 دقیقه&lt;/td&gt;
       &lt;td&gt;نوید کاشانی&lt;/td&gt;
