@@ -335,20 +335,18 @@ input[type="submit"] {
 }
 
 .btn {
-	a {
-		display: inline-block;
-		background: transparent;
-		padding: rem-calc(15 65);
-		border: 1px solid $main_primary_color;
-		border-radius: $global-radius;
-		margin-top: rem-calc(50);
-		font-size: rem-calc(dir-check(17, 23));
-		color: $main_primary_color;
+	display: inline-block;
+	background: transparent;
+	padding: rem-calc(15 65);
+	border: 1px solid $main_primary_color;
+	border-radius: $global-radius;
+	margin-top: rem-calc(50);
+	font-size: rem-calc(dir-check(17, 23));
+	color: $main_primary_color;
 
-		&:hover {
-			background: $anchor-font-color-hover;
-			color: #fff;
-		}
+	&:hover {
+		background: $anchor-font-color-hover;
+		color: #fff;
 	}
 }
 

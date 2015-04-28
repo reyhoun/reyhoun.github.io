@@ -1,9 +1,11 @@
 .content__blog {
-	border-bottom: 1px solid lighten($color-base, 55%);
-	padding: rem-calc(25 0);
+	// border-bottom: 1px solid lighten($color-base, 55%);
+	padding: rem-calc(30 0);
+
 	&:first-of-type {
 		padding-top: 0;
 	}
+
 	&:last-of-type {
 		border-bottom: none;
 		padding-bottom: 0;
@@ -39,6 +41,18 @@
 	margin: rem-calc(0 0 20);
 }
 
+.pagination {
+	text-align: center;
+	margin-top: rem-calc(100);
+
+	.next-btn,
+	.prev-btn {
+		padding: rem-calc(5 50);
+		margin-top: 0;
+	}
+}
+
+// RTL Styles
 @include if-rtl {
 	.post-date {
 		font-size: rem-calc(19);
@@ -54,6 +68,7 @@
 	}
 }
 
+// Mobile Styles
 @include breakpoint(small) {
 	.content__title {
 		font-size: rem-calc(24);

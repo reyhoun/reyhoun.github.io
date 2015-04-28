@@ -13,4 +13,9 @@ title:  "Blog"
 	<div class="date">{{ post.date | date: "%-d %b %Y" }}</div>
 	<a class="content__title" href="{{ post.url }}/">{{ post.title }}</a>
 </div>
+
+<div class="pagination">
+	<a href="#" class="btn prev-btn">Prev</a>
+	<a href="#" class="btn next-btn">Next</a>
+</div>
 {% endunless %}{% endfor %}
