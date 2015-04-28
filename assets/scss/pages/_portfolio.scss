@@ -40,3 +40,10 @@
 		margin: rem-calc(50 0 30);
 	}
 }
+
+@include breakpoint(small) {
+	.test {
+		padding-#{$start}: 0;
+		padding-#{$end}: 0;
+	}
+}
