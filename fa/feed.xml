@@ -6,9 +6,57 @@
 </description>
     <link>http://reyhoun.com/fa/</link>
     <atom:link href="http://reyhoun.com/fa/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Apr 2015 12:38:20 +0430</pubDate>
-    <lastBuildDate>Wed, 29 Apr 2015 12:38:20 +0430</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2015 13:21:36 +0430</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 13:21:36 +0430</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+	
+      <item>
+        <title>آماده سازی و ارسال ایمیل هفته نامه طراحی وب</title>
+        <description>&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/2015/04/uitoread-mail-template.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;وقتی &lt;a href=&quot;http://ui.toread.ir/&quot;&gt;هفته نامه طراحی وب فارسی&lt;/a&gt; ایجاد و قرار شد هر هفته لینک ها معرفی شود، یک بخش کار ارسال خبرنامه بود. در ادامه در ارتباط با نحوه آماده سازی و ارسال ایمیل در این هفته نامه می خوانید.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;طراحی&lt;/h3&gt;
+&lt;p&gt;هدف از طراحی یک ساختار ساده و نزدیک به وب سایت و همانند آن متن های بزرگ برای راحت خواندن در نظر گرفته شد.&lt;/p&gt;
+
+&lt;p&gt;اسکچی که طرح بر مبنای آن آماده شد را می توانید &lt;a href=&quot;https://cloud.githubusercontent.com/assets/1286738/7218393/e14f75d8-e681-11e4-816b-a87f0006ae7c.JPG&quot;&gt;در این آدرس&lt;/a&gt; مشاهده کنید.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;قالب ایمیل واکنشگرا&lt;/h3&gt;
+&lt;p&gt;این روزها استفاده از موبایل بیشتر و بیشتر می شود و افراد زیادی (از جمله خودمون) برای خواندن ایمیل ها از گوشی موبایلشون استفاده می کنند. به همین منظور تصمیم گرفتیم قالب ایمیلی آماده کنیم که در تمامی اندازه ها به خوبی نمایش داده شود.&lt;/p&gt;
+
+&lt;p&gt;برای انجام این کار ما از &lt;a href=&quot;http://zurb.com/ink/&quot;&gt;فریم ورک Ink&lt;/a&gt; که به منظور ایجاد ایمیل های واکنشگرا ایجاد شده استفاده کردیم. سورس قالب ایمیل را می توانید &lt;a href=&quot;https://github.com/reyhoun/ui.toread/blob/gh-pages/_layouts/issue.html&quot;&gt;در این آدرس&lt;/a&gt; مشاهده و در صورت تمایل از آن استفاده نمائید.&lt;/p&gt;
+
+&lt;p&gt;برخی تجربیات در این رابطه:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;برای ایجاد قالب ایمیل باید از Table استفاده کنید&lt;/li&gt;
+  &lt;li&gt;استایل ها باید Inline باشد&lt;/li&gt;
+  &lt;li&gt;بدترین دشمن شما Gmail و Outlook است&lt;/li&gt;
+  &lt;li&gt;برخی کلاینت ها فونت های کاستوم را بارگذاری نمی کنند (مثل همین جیمیل)&lt;/li&gt;
+  &lt;li&gt;اندازه فونت ها در اپلیکیشن های Gmail و Inbox گوگل ریزتر از بقیه است&lt;/li&gt;
+  &lt;li&gt;از یک فریم ورک استفاده کنید چراکه بسیاری از مشکلات را برای شما حل می کنند&lt;/li&gt;
+  &lt;li&gt;منتظر تفاوت های عجیب غریب و عدم پشتیبانی زیاد از قابلیت های وب باشید&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;ارسال خبرنامه&lt;/h3&gt;
+&lt;p&gt;ما برای مدیریت و ارسال خبرنامه ها از سرویس &lt;a href=&quot;http://mailchimp.com/&quot;&gt;MailChimp&lt;/a&gt; استفاده می کنیم که در زمینه خودش جز بهترین ها در دنیا هست. این سرویس یک نسخه رایگان دارد که می تواند شامل 2هزار عضو و ارسال 12هزار ایمیل در ماه باشد.&lt;/p&gt;
+
+&lt;p&gt;ایمیل های ثبت شده در سایت به صورت خودکار در این سایت ثبت شده و هر هفته نیز خبرنامه را از طریق محیط مدیریت سایت برای اعضا ارسال می کنیم. همچنین آمار بسیار خوب و دقیقی از تعداد کلیک ها و ایمیل های باز شده نیز توسط این سرویس در اختیار شما قرار می گیرد.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;ایجاد دستی ایمیل در هر هفته؟&lt;/h3&gt;
+&lt;p&gt;یک مشکلی که ما با آن روبرو بودیم فرآیند دستی ایجاد و ارسال ایمیل در هر هفته بود. MailChimp یکسری API برای ارسال خودکار قرارداده ولی با توجه به ساختار وب سایت، استفاده از آن مقدور نیست. اما مشکل بزرگتر آماده کردن ایمیل براساس محتوای هر هفته بود.&lt;/p&gt;
+
+&lt;p&gt;برای حل این مشکل ما بعد از آماده سازی قالب ایمیل آن را به شکل یک &lt;a href=&quot;https://github.com/reyhoun/ui.toread/blob/gh-pages/_layouts/issue.html&quot;&gt;Template&lt;/a&gt; برای Jekyll تعریف کردیم و هر هفته با ایجاد &lt;a href=&quot;https://github.com/reyhoun/ui.toread/blob/gh-pages/mail/003.md&quot;&gt;یک فایل ساده&lt;/a&gt;، کد خبرنامه ما براساس محتوای ایجاد شده توسط Jekyll ایجاد می شود. بطور مثال &lt;a href=&quot;http://ui.toread.ir/mail/003.html&quot;&gt;در این آدرس&lt;/a&gt; می توانید کد هفته نامه شماره 3 را مشاهده کنید.&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;جمع بندی&lt;/h3&gt;
+&lt;p&gt;این اولین تجربه ما در ایجاد یک قالب ایمیل Responsive بود. با یک جستجو در اینترنت می توانید به منابع خوبی برای انجام این کار دست پیدا کنید. در صورت مشاهده مشکل می توانید با اعلام کلاینت مورد استفاده و یک تصویر در &lt;a href=&quot;https://github.com/reyhoun/ui.toread/issues&quot;&gt;بخش Issues پروژه&lt;/a&gt;، به ما در بهبود این خبرنامه کمک کنید.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 20:00:56 +0430</pubDate>
+        <link>http://reyhoun.com/fa/blog/email-template</link>
+        <guid isPermaLink="true">http://reyhoun.com/fa/blog/email-template</guid>
+        
+      </item>
 	
       <item>
         <title>سومین دورهمی آموزشی ریحون</title>
@@ -712,36 +760,6 @@
         <pubDate>Tue, 17 Mar 2015 17:00:56 +0330</pubDate>
         <link>http://reyhoun.com/fa/blog/forest-productivity-app</link>
         <guid isPermaLink="true">http://reyhoun.com/fa/blog/forest-productivity-app</guid>
-        
-      </item>
-	
-      <item>
-        <title>هر سفیدی سفید نیست</title>
-        <description>&lt;p class=&quot;text-center&quot;&gt;
-&lt;img src=&quot;/assets/img/blog/2015/03/narcissus-plant-palette.jpg&quot; alt=&quot;رنگ ها در گل نرگس&quot; /&gt;
-&lt;/p&gt;
-&lt;p&gt;یادمه روزی که برای استراحت روی صندلی ای نشسته بودم که در کنار اون یک دسته گل نرگس جلب توجه می کرد. گل را آوردم نزدیکتر تا از بو و زیباییش لذت بیشتری ببرم. در همین حال نکته ای توجه منو به خودش جلب کرد. این گل در عین سادگی واقعا زیباست. وقتی که بیشتر دقت کردم رنگ بندی ای را دیدم که تا به حال به آن توجه نکرده بودم:&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;
-&lt;strong&gt;سفیدش سفید نیست، زردش زرد نیست، سبزش سبز نیست&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p&gt;رنگ ها با سختار زیبایی به یکدیگر متصل می شدند و در کنار یکدیگر هارمونی بسیار قشنگی را ایجاد کرده بودند.
-بیشتر ما جزئیات در طراحی را نمی بینیم ولی از آن لذت می بریم. این جزئیات ممکن است به چشم دیده نشود اما مطمئنن حس خوب آن ها را متوجه خواهیم شد.&lt;/p&gt;
-
-&lt;p&gt;من اون روز متوجه شدم ما می توانیم رنگ ها را بسته به یکدیگر انتخاب کنیم. یعنی اگر در طرحمان رنگ بنفش داریم و می خواهیم در کنار آن از خاکستری استفاده کنیم پس خاکستری با طیفی از بنفش را انتخاب کنیم.&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;
-&lt;img src=&quot;/assets/img/blog/2015/03/colorbase.png&quot; alt=&quot;انتخاب رنگ ها در طیف های مرتبط&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;این نوع انتخاب رنگ انقدر جزئی هست که شاید چشم قادر به تشخیص آن هم نباشد اما می تواند در کنار دیگر المان های خوب دیگر، حس بهتری را منتقل کند.&lt;/p&gt;
-
-&lt;p&gt;پیشنهاد می کنم به اطراف خود نگاه کنید و رنگ هایی که در طیف یکدیگر هستند را مشاهده کنید. از این زیبایی لذت خواهید برد.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Mar 2015 17:00:56 +0330</pubDate>
-        <link>http://reyhoun.com/fa/blog/colors-in-nature</link>
-        <guid isPermaLink="true">http://reyhoun.com/fa/blog/colors-in-nature</guid>
         
       </item>
 	
