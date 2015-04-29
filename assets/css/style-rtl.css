@@ -4177,8 +4177,7 @@ blockquote, blockquote p {
       margin-bottom: 0; } }
 
 .content__blog {
-  border-bottom: 1px solid #f2f2f2;
-  padding: 1.5625rem 0; }
+  padding: 1.875rem 0; }
   .content__blog:first-of-type {
     padding-top: 0; }
   .content__blog:last-of-type {
@@ -4204,6 +4203,13 @@ blockquote, blockquote p {
 
 .post-title {
   margin: 0 0 1.25rem; }
+
+.pagination {
+  text-align: center;
+  margin-top: 6.25rem; }
+  .pagination .next-btn, .pagination .prev-btn {
+    padding: 0.3125rem 3.125rem;
+    margin-top: 0; }
 
 .post-date {
   font-size: 1.1875rem; }
@@ -4248,6 +4254,11 @@ blockquote, blockquote p {
 
 .content__portfolio img {
   margin: 3.125rem 0 1.875rem; }
+
+@media only screen and (max-width: 40em) {
+  .test {
+    padding-right: 0;
+    padding-left: 0; } }
 
 body {
   direction: rtl; }
@@ -4468,7 +4479,7 @@ input[type="submit"] {
   input[type="submit"]:hover {
     background: #8e235f; }
 
-.btn a {
+.btn {
   display: inline-block;
   background: transparent;
   padding: 0.9375rem 4.0625rem;
@@ -4477,7 +4488,7 @@ input[type="submit"] {
   margin-top: 3.125rem;
   font-size: 1.4375rem;
   color: #A72970; }
-  .btn a:hover {
+  .btn:hover {
     background: #8e235f;
     color: #fff; }
 

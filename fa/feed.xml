@@ -6,9 +6,101 @@
 </description>
     <link>http://reyhoun.com/fa/</link>
     <atom:link href="http://reyhoun.com/fa/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Apr 2015 12:52:33 +0430</pubDate>
-    <lastBuildDate>Tue, 21 Apr 2015 12:52:33 +0430</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2015 12:38:20 +0430</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 12:38:20 +0430</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+	
+      <item>
+        <title>سومین دورهمی آموزشی ریحون</title>
+        <description>&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/2015/04/reyhoun-weekly-wire.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;سومین دورهمی ریحون در سوم اردیبهشت برگزار شد که خلاصه ای از آن را در ادامه می خوانید:&lt;/p&gt;
+
+&lt;h5 id=&quot;impress-your-audience-with-impressjs&quot;&gt;Impress your audience with impress.js&lt;/h5&gt;
+&lt;p&gt;پرهام اسکریپت &lt;a href=&quot;https://github.com/bartaz/impress.js/&quot;&gt;impress.js&lt;/a&gt; را که مخصوص ساخت اسلاید و ارائه هست معرفی کرد و توضیحاتی در مورد نحوه چگونگی ساخت اسلاید با آن را داد. همچنین مزایا و معایب این روش با دیگر برنامه های ایجاد اسلاید نظیر PowerPoint نیز بررسی شد.&lt;/p&gt;
+
+&lt;h5 id=&quot;behance&quot;&gt;ارائه در Behance&lt;/h5&gt;
+&lt;p&gt;محمد این هفته در مورد ارائه کارهای گرافیکی در وب سایت Behance صحبت کرد و نکاتی را در رابطه با بهتر دیده شدن در این سایت ارائه نمود.&lt;/p&gt;
+
+&lt;p&gt;برای مشاهده صفحه Behance ریحون می توانید &lt;a href=&quot;https://www.behance.net/reyhoun&quot;&gt;به این آدرس&lt;/a&gt; مراجعه کنید.&lt;/p&gt;
+
+&lt;h5 id=&quot;sass&quot;&gt;آشنایی با Sass&lt;/h5&gt;
+&lt;p&gt;ستاره به معرفی Sass و دلایل استفاده از آن پرداخت و دستورات مقدماتی Sass را معرفی و مثال هایی در مورد آن ها را نمایش داد.&lt;/p&gt;
+
+&lt;h5 id=&quot;jekyll&quot;&gt;آشنایی با Jekyll&lt;/h5&gt;
+&lt;p&gt;در این ارائه نیز سایت ساز &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; معرفی و نقاط مثبت و منفی آن ارزیابی شد. همین وب سایت نیز با Jekyll ساخته و مدیریت می شود.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;دورهمی بعدی&lt;/h3&gt;
+&lt;p&gt;طبق برنامه در روز پنج شنبه همین هفته دورهمی بعدی نیز برگزار می شود که در ادامه می توانید اطلاعات مربوط به آن را مشاهده کنید.&lt;/p&gt;
+
+&lt;p&gt;مشخصات زمانی:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;تاریخ برگزاری: 10 اردیبهشت 94&lt;/li&gt;
+  &lt;li&gt;زمان شروع: 8:00 صبح&lt;/li&gt;
+  &lt;li&gt;زمان پایان: 10:00 صبح&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;caption&gt;برنامه برگزاری&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;عنوان&lt;/th&gt;
+      &lt;th width=&quot;200&quot;&gt;زمان شروع&lt;/th&gt;
+      &lt;th width=&quot;200&quot;&gt;مدت زمان&lt;/th&gt;
+      &lt;th width=&quot;250&quot;&gt;ارائه دهنده&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;شروع مراسم&lt;/td&gt;
+      &lt;td&gt;8:00&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Difference between Sketch, Wireframe, Prototype &amp;#38; Mockup&lt;/td&gt;
+      &lt;td&gt;8:15&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;پرهام خوشبخت&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;استراحت و پذیرایی&lt;/td&gt;
+      &lt;td&gt;8:35&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Responsive Typography in Action&lt;/td&gt;
+      &lt;td&gt;8:50&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;شادی احمدزاده&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;استراحت و پذیرایی&lt;/td&gt;
+      &lt;td&gt;9:10&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;آشنایی با AngularJS&lt;/td&gt;
+      &lt;td&gt;9:25&lt;/td&gt;
+      &lt;td&gt;30 دقیقه&lt;/td&gt;
+      &lt;td&gt;میثم رجبی&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;زمان مشخص شده شامل بخش پرسش و پاسخ نیز می باشد.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 18:00:56 +0430</pubDate>
+        <link>http://reyhoun.com/fa/blog/reyhoun-meetup-3</link>
+        <guid isPermaLink="true">http://reyhoun.com/fa/blog/reyhoun-meetup-3</guid>
+        
+      </item>
 	
       <item>
         <title>دومین دورهمی آموزشی ریحون</title>
@@ -650,21 +742,6 @@
         <pubDate>Tue, 10 Mar 2015 17:00:56 +0330</pubDate>
         <link>http://reyhoun.com/fa/blog/colors-in-nature</link>
         <guid isPermaLink="true">http://reyhoun.com/fa/blog/colors-in-nature</guid>
-        
-      </item>
-	
-      <item>
-        <title>سلام به همه</title>
-        <description>&lt;p&gt;سلام به همه.
-این اولین نوشته فارسی ما در سایت ریحون هست. تصمیم داریم در وبلاگ ریحون مطالبی آموزشی در مورد تکنولوژی های جدید وب و همچنین تجربیاتی که داریم بنویسیم.&lt;/p&gt;
-
-&lt;p&gt;به امید اینکه بتوانیم کمکی هرچند کوچک به بهبود وب فارسی کرده باشیم.&lt;/p&gt;
-
-&lt;p&gt;با ما باشید.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Mar 2015 13:55:56 +0330</pubDate>
-        <link>http://reyhoun.com/fa/blog/hi-everyone</link>
-        <guid isPermaLink="true">http://reyhoun.com/fa/blog/hi-everyone</guid>
         
       </item>
 	
