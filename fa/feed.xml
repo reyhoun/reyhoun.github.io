@@ -6,9 +6,84 @@
 </description>
     <link>http://reyhoun.com/fa/</link>
     <atom:link href="http://reyhoun.com/fa/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Apr 2015 13:58:16 +0430</pubDate>
-    <lastBuildDate>Wed, 29 Apr 2015 13:58:16 +0430</lastBuildDate>
+    <pubDate>Tue, 05 May 2015 11:01:22 +0430</pubDate>
+    <lastBuildDate>Tue, 05 May 2015 11:01:22 +0430</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+	
+      <item>
+        <title>چهارمین دورهمی آموزشی ریحون</title>
+        <description>&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/2015/04/reyhoun-weekly-meetup.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;10ام اردیبهشت، چهارمین دورهمی ریحون برگزار شد که در ادامه خلاصه ای آن را مشاهده می فرمائید:&lt;/p&gt;
+
+&lt;h5 id=&quot;difference-between-sketch-wireframe-prototype-38-mockup&quot;&gt;Difference between Sketch, Wireframe, Prototype &amp;#38; Mockup&lt;/h5&gt;
+&lt;p&gt;فرآیند طراحی از ایده تا اجرا شامل بخش های متنوعی است که پرهام در این ارائه به معرفی آن ها و تفاوت هر مرحله نسبت به یکدیگر پرداخت.&lt;/p&gt;
+
+&lt;h5 id=&quot;responsive-typography-in-action&quot;&gt;Responsive Typography in Action&lt;/h5&gt;
+&lt;p&gt;یکی از مهمترین المان های طراحی واکنشگرا، فونت ها هستند که نسبت به اندازه صفحه نمایش نیز باید متغیر باشند تا بتوان در تمامی اندازه ها خوانایی مناسبی داشت. شادی در این ارائه علاوه بر معرفی روش های مختلف، پیشنهادات و تجربیات خودش رو هم به اشتراک گذاشت.&lt;/p&gt;
+
+&lt;h5 id=&quot;angularjs&quot;&gt;آشنایی با AngularJS&lt;/h5&gt;
+&lt;p&gt;وب اپلیکیشن ها و صفحات One Page این روزها از محبوبیت بسیار بالایی برخوردار هستند و توسعه دهندگان از روش های مختلفی برای ایجاد آن ها استفاده می کنند. محبوبترین فریم ورک برای انجام این کار AngularJS است که توسط گوگل پشتیبانی و به صورت متن باز توسعه داده می شود. میثم در این ارائه تاریخچه ای از این اسکریپت را همراه با اجرا و معماری آن معرفی کرد.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;دورهمی بعدی&lt;/h3&gt;
+&lt;p&gt;طبق برنامه در روز پنج شنبه همین هفته دورهمی بعدی نیز برگزار می شود که در ادامه می توانید اطلاعات مربوط به آن را مشاهده کنید.&lt;/p&gt;
+
+&lt;p&gt;مشخصات زمانی:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;تاریخ برگزاری: 17 اردیبهشت 94&lt;/li&gt;
+  &lt;li&gt;زمان شروع: 8:00 صبح&lt;/li&gt;
+  &lt;li&gt;زمان پایان: 9:30 صبح&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;caption&gt;برنامه برگزاری&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;عنوان&lt;/th&gt;
+      &lt;th width=&quot;200&quot;&gt;زمان شروع&lt;/th&gt;
+      &lt;th width=&quot;200&quot;&gt;مدت زمان&lt;/th&gt;
+      &lt;th width=&quot;250&quot;&gt;ارائه دهنده&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;شروع مراسم&lt;/td&gt;
+      &lt;td&gt;8:00&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CSS Guideline - Part One&lt;/td&gt;
+      &lt;td&gt;8:15&lt;/td&gt;
+      &lt;td&gt;15 دقیقه&lt;/td&gt;
+      &lt;td&gt;شادی احمدزاده&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;استراحت و پذیرایی&lt;/td&gt;
+      &lt;td&gt;8:30&lt;/td&gt;
+      &lt;td&gt;20 دقیقه&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;روانشناسی رنگ ها&lt;/td&gt;
+      &lt;td&gt;8:50&lt;/td&gt;
+      &lt;td&gt;30 دقیقه&lt;/td&gt;
+      &lt;td&gt;شروین زمانی&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;زمان مشخص شده شامل بخش پرسش و پاسخ نیز می باشد.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 May 2015 18:00:56 +0430</pubDate>
+        <link>http://reyhoun.com/fa/blog/reyhoun-meetup-4</link>
+        <guid isPermaLink="true">http://reyhoun.com/fa/blog/reyhoun-meetup-4</guid>
+        
+      </item>
 	
       <item>
         <title>آماده سازی و ارسال ایمیل هفته نامه طراحی وب</title>
@@ -720,46 +795,6 @@
         <pubDate>Tue, 07 Apr 2015 18:00:56 +0430</pubDate>
         <link>http://reyhoun.com/fa/blog/reyhoun-meetup-0</link>
         <guid isPermaLink="true">http://reyhoun.com/fa/blog/reyhoun-meetup-0</guid>
-        
-      </item>
-	
-      <item>
-        <title>با بهره وری، جنگلی سرسبز بسازید</title>
-        <description>&lt;p class=&quot;text-center&quot;&gt;
-&lt;img src=&quot;/assets/img/blog/2015/03/forest-app.png&quot; alt=&quot;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;بهره وری و تمرکز بیشتر و بهتر می تواند هدف هر شخص یا تیمی باشد. در این بین ابزارها و روش های زیادی ایجاد شده اند تا کمک کنند بهره وری بهتری داشته باشیم.&lt;/p&gt;
-
-&lt;p&gt;در این نوشته قصد دارم اپلیکیشن جدیدی را معرفی کنم که بوسیله آن در یک محیط جالب می توانید بهره وری و تمرکز خود را افزایش دهید و در ادامه ببینید این برنامه حتی می تواند دوستی هایتان را نیز تقویت کند!&lt;/p&gt;
-
-&lt;p&gt;اپلیکیشن &lt;a href=&quot;http://www.forestapp.cc/&quot;&gt;Forest&lt;/a&gt; به تازگی در لیست محبوب ترین برنامه های شاخه بهره وری اپ استور قرار گرفته است. این برنامه 0.99 دلاری یک روش ساده دارد: مدت زمانی برای تمرکز مشخص کنید (حداقل 30 دقیقه و حداکثر 120 دقیقه) و کار خود را شروع کنید. در صورتی که چالش خود را با موفقیت انجام دهید درختی سبز در جنگل شما سبز می شود و در غیر اینصورت یک درخت خشک شده را مشاهده خواهید کرد. به همین ترتیب در انتهای روز یک جنگل پردرخت و سرسبز، یک روز با بهره وری بالا را نشان می دهد.&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;
-&lt;img src=&quot;/assets/img/blog/2015/03/forest_4.png&quot; alt=&quot;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;این موبایل لعنتی!&lt;/h3&gt;
-&lt;p&gt;یکی از مهمترین آفت های بهره وری این روزها، موبایل هست. نکته خوب و جالب اینکه شما نمی توانید با موبایلتان در هنگام زمان تمرکز کار کنید و همزمان درختتان را سبز نگه دارید.&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;
-&lt;strong&gt;این اپلیکیشن به شما کمک می کند تا گوشی خود را زمین بگذارید و روی چیزهای مهمتری در زندگیتان تمرکز کنید&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p&gt;به نظر من باید از این فرصت استفاده کرد! گوشی خود را رها کنید و به کارتان برسید!&lt;/p&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;از زمان های دور همی خود لذت بیشتری ببرید&lt;/h3&gt;
-&lt;p&gt;بعد از مشاهده تصویر زیر حس جالبی داشتم:&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;
-&lt;img src=&quot;/assets/img/blog/2015/03/forest-friend.png&quot; alt=&quot;&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;امیدوارم این برنامه بتواند به بهبود بهره وری و تمرکز به شما کمک کند و خبر خوب آخر اینکه این برنامه برای سه پلتفرم iOS، اندروید و ویندوز فون &lt;a href=&quot;http://www.forestapp.cc/&quot;&gt;در دسترس می باشد&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Mar 2015 17:00:56 +0330</pubDate>
-        <link>http://reyhoun.com/fa/blog/forest-productivity-app</link>
-        <guid isPermaLink="true">http://reyhoun.com/fa/blog/forest-productivity-app</guid>
         
       </item>
 	
